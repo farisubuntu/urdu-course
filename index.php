@@ -1,6 +1,6 @@
 <?php
 
-include "src/app/theme/index.html";
+include "src/index.html";
 
 
 ?>
