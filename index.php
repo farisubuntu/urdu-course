@@ -1,7 +1,6 @@
 <?php
 
-echo "Hello, from urdu-course";
-
+include "src/app/theme/index.html";
 
 
 ?>
