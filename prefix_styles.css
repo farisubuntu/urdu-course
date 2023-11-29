@@ -19,6 +19,7 @@ body {
  /*width: 40%;*/
  border-radius: 5px;
  cursor: pointer;
+ margin-top: 1rem;
 }
 
 .card:hover {
@@ -43,8 +44,8 @@ img {
 
 .cards {
  display: grid;
- grid-template-columns: 1fr 1fr 1fr;
- column-gap: 10px;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ column-gap: 20px;
 }
 
 @media screen and (max-width:400px) {
