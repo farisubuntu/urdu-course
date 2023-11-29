@@ -1,7 +1,7 @@
 // script.js
 // for more about fetch json -> https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 onload=function(){
- caller(url_raw); 
+ caller(urls_category_lessons[0]); 
 }
 
 // sample full url for an audio file=> https://d13tz37rv54ob.cloudfront.net/ur/TnBUFMy7uqu_Rwilf-UzaSzeyNFwNZFm?t=1688826351
@@ -63,7 +63,6 @@ function injectLessonQuiz(quiz_no=0){
          <span class='quiz-label'>${quiz_no+1} : </span>
          <span class='quiz-no'> ${quizzes[quiz_no].id}</span>
         </h2>
-
         `;
     linked_quizzes.innerHTML=html;
 }
