@@ -78,5 +78,29 @@ function appendCardsContent() {
 }
 function showLessonContent(target) {
   console.log(target.currentTarget); //always get the .card element
-  
+  let id = target.currentTarget.getAttribute("id");
+  console.log(id);
+  // makeUrls(id);
+}
+
+// vocabularies fiels:
+// https://raw.githubusercontent.com/farisubuntu/urdu-course/gh-pages/data/....
+
+function makeUrls(id) {
+  let urls = [];
+  // add 'id'
+  let const_portion =
+    "https://raw.githubusercontent.com/farisubuntu/urdu-course/gh-pages/data/";
+  console.log(const_portion);
+  // append 'id'+'.json' (lesson file) as the zero index item
+  var category_file = const_portion + id + "/" + id + ".json";
+  console.log("category file url=", category_file);
+  urls[0]=category_file; //category url
+  // append lessons urls
+  for (var i = 1; i < 7; i++) {
+    urls[i]=const_portion + id + "/" + id + "0" + i.toString() + ".json";
+  }
+  // append seventh item -- const_portion+id/vocabularies/id01.json'
+  urls[7]=const_portion + id + "/vocabularies/" + id + "01.json";
+  return urls;
 }
