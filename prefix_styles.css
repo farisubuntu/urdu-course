@@ -1,4 +1,5 @@
 @import url('tab.css');
+
 * {
  box-sizing: border-box;
  padding: 0;
@@ -8,14 +9,18 @@
 body {
  width: 100%;
  height: 100%;
- /* background-color:gold; */
- margin: 0.5rem 0.5rem;
+ margin: 0 auto;
  padding: 0.5rem;
+ /* text-align: center; */
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-content: center;
 
 }
-.content-wrapper{
 
-}
+
+.content-wrapper {}
 
 /* ----------------------- cards ------------------------------*/
 .card {
@@ -28,96 +33,171 @@ body {
 }
 
 .card:hover {
- color:green;
+ color: green;
  font-size: 1.4em;
  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
- border:2px solid blue;
+ border: 2px solid blue;
 }
 
-.img_wrapper{
- width:150px;
+.img_wrapper {
+ width: 300px;
 }
+
 img {
  border-radius: 5px 5px 0 0;
- width:100%;
+ width: 100%;
+ height: auto;
 }
 
 .container {
- padding: 2px 16px;
+ padding: 0.5rem;
  background-color: lightblue;
 }
 
 .cards {
  display: grid;
  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
- column-gap: 20px;
+ column-gap: 10px;
+}
+
+.card {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
 }
 
 
 /* dynamic tags  */
-.review-wrapper{
+.review-wrapper {
+ width: 100%;
+ background-color: #445069;
+ border: 1px solid silver;
+}
+table{
  width:100%;
- background-color:whitesmoke;
- border:1px solid silver;
 }
-table thead{
+table thead {
  background-color: teal;
- color:white;
- border:1px solid white;
+ color: white;
+ border: 1px solid white;
 }
-.tg-wrap{
+
+.tg-wrap {
  direction: rtl;
  text-align: center;
 }
-table{
- margin:0 auto;
+
+table {
+ margin: 0 auto;
 }
-td{
+
+td {
  border: 1px solid silver;
 }
-.target,.target-head{
- width:20%;
- 
+
+tbody .target {
+ color: brown;
 }
-.mother,.mother-head{
- width:20%;
+
+tbody .mother {
+ color: green;
 }
-.audio,.audio-head{
- width:30%
+
+
+.image,
+.image-head {
 }
-.image,.image-head{
- max-width:30%;
-}
-.image>img{
- width:50px;
- height: 50px;
+
+.image>img {
+ width: 70px;
+ height: 70px;
 }
 
 /* quizzes */
-.quizzes{
+.quizzes {
  display: flex;
  flex-direction: column;
- justify-content: center;
+ align-items: stretch;
  direction: rtl;
 }
-.row{
+
+.row {
  display: flex;
- justify-content: space-around;
- border:1px solid green;
+ justify-content: flex-start;
+ border: 1px solid green;
+ row-gap: 0.5rem;
 }
-.row:hover{
- font-size: 1em;
- background-color: black;
- color:yellow;
+.row > .cell{
+ text-align: center;
+ flex:1; 
+}
+ div.cell{
+  text-align: right;
+ 
 }
 
-@media screen and (max-width:400px) {
+.row:hover {
+ font-size: 1em;
+ background-color: black;
+ color: yellow;
+}
+/* remove all audio control tag styles */
+audio{
+ all:unset;
+}
+button.home {
+ width: 25%;
+ height: 2em;
+}
+
+.cell.index {
+ display: none;
+}
+
+.fa{
+ cursor: pointer;
+ padding:3px 15px;
+ background-color: whitesmoke;
+ font-size: large;
+}
+
+
+
+/* media queries */
+@media screen and (width < 700px) {
  .cards {
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+.nav-header .tab{
+ display: flex;
+ flex-wrap: wrap;
+ row-gap: 0.2rem;
+ column-gap: 0.2rem;
+}
+.tab .tablinks{
+ border:1px solid white;
+ flex:1;
+}
+
+
+}
+
+@media screen and (width <=600px) {
+ .cards {
+  grid-template-columns: 1fr 1fr 1fr;
+ }
+
+
+}
+
+@media screen and (width <=450px) {
+ .cards {
+  grid-template-columns: 1fr 1fr;
  }
 }
-@media scrren and (min-width:600px){
- .cards{
-  grid-template-columns: 1fr 1fr 1fr;
+
+@media screen and (width <=350px) {
+ .cards {
+  grid-template-columns: 1fr;
  }
 }

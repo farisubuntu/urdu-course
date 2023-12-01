@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="prefix_styles.css" />
-    <title>fetch and JSON - workaround</title>
-  </head>
-  <body>
-    <!-- https://raw.githubusercontent.com/farisubuntu/mondly/master/sections/1201.json -->
-    <header class="nav-header"></header>
 
-    <hr />
-    <div class="content-wrapper">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="prefix_styles.css" />
+  <script src="https://kit.fontawesome.com/c0d271a090.js" crossorigin="anonymous"></script>
+  <title>fetch and JSON - workaround</title>
+ </head>
 
-    </div>
-    
-    <div class="quizzes">
+ <body>
+  <button class="home" onclick="toHomePage();"><i class="fa-solid fa-house"></i> HOME </button>
+  <!-- https://raw.githubusercontent.com/farisubuntu/mondly/master/sections/1201.json -->
+  <header class="nav-header"></header>
 
-    </div>
+  <hr />
+  
+  <div class="content-wrapper">
 
-    <!-- all templates -->
-    <script src="templates.js"></script>
-    <script src="script.js"></script>
-  </body>
+  </div>
+
+  <div class="quizzes">
+
+  </div>
+
+  <!-- all templates -->
+  <script src="templates.js"></script>
+  <script src="script.js"></script>
+  <script>
+   function toHomePage() {
+    console.log('toHomePage() .....');
+    window.location = location.href;
+   }
+  </script>
+ </body>
+
 </html>

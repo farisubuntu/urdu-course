@@ -1,19 +1,3 @@
-// back button:
-// window.history.pushState({ page: 1 }, "", "");
-
-// window.onpopstate = function (event) {
-// "event" object seems to contain value only when the back button is clicked
-// and if the pop state event fires due to clicks on a button
-// or a link it comes up as "undefined"
-
-// if (event) {
-// Code to handle back button or prevent from navigation
-// appendCardsContent();
-// } else {
-// Continue user action through link or button
-// }
-// };
-
 onload = function () {
   caller(url_all, "a");
 };
@@ -27,20 +11,6 @@ var lesson_urls;
 // sample full url for an audio file=> https://d13tz37rv54ob.cloudfront.net/ur/TnBUFMy7uqu_Rwilf-UzaSzeyNFwNZFm?t=1688826351
 var url_all =
   "https://raw.githubusercontent.com/farisubuntu/urdu-course/gh-pages/data/all.json";
-var urls_category_lessons = [
-  "https://raw.githubusercontent.com/farisubuntu/urdu-course/main/data/2/2.json",
-  "https://raw.githubusercontent.com/farisubuntu/urdu-course/main/data/2/201.json",
-  "https://raw.githubusercontent.com/farisubuntu/urdu-course/main/data/2/202.json",
-  "https://raw.githubusercontent.com/farisubuntu/urdu-course/main/data/2/203.json",
-  "https://raw.githubusercontent.com/farisubuntu/urdu-course/main/data/2/204.json",
-  "https://raw.githubusercontent.com/farisubuntu/urdu-course/main/data/2/205.json",
-  "https://raw.githubusercontent.com/farisubuntu/urdu-course/main/data/2/206.json",
-  "https://raw.githubusercontent.com/farisubuntu/urdu-course/main/data/2/vocabularies/201.json",
-];
-// sample image link: https://d37sy4vufic209.cloudfront.net/phrase-images/4LxKr9YvDJgNMNCsfBNDDmpo1QDNYJsM?t=1689159098
-// sample for last lesson (category review) (~=400 lines) : https://api.mondly.com/v2/categories/2/vocabularies/201
-// sample for first lesson (lesson review ) (~=10168 lines): https://api.mondly.com/v2/categories/2/lessons/201
-// the same ^ but ("اعادة المحاولة") ()
 
 // data_obj;
 // category; // 1,2,...,88,.....
@@ -67,23 +37,22 @@ async function caller(url, obj_type) {
   if (obj_type == "v") {
     // vocabularies
     vocabularies = json;
-    console.log('vocabularies',vocabularies);
+    console.log("vocabularies", vocabularies);
     appendVocabularies();
   }
   if (obj_type == "c") {
     category = json;
-    console.log('obj_type=l, so',category);
+    console.log("obj_type=l, so", category);
     get_top_bar();
   }
-  if(obj_type=="l"){ // such 201.json,.....
-   lesson=json.lesson;
-   quizzes=json.quizzes;
-   console.log('lesson_obj',lesson);
-   console.log('quizzes obj',quizzes);
-   appendLessonData();
-  }
-  
-  else {
+  if (obj_type == "l") {
+    // such 201.json,.....
+    lesson = json.lesson;
+    quizzes = json.quizzes;
+    console.log("lesson_obj", lesson);
+    console.log("quizzes obj", quizzes);
+    appendLessonData();
+  } else {
     console.log("object type unknowen....");
   }
 }
@@ -107,11 +76,10 @@ function showLessonContent(target) {
   lesson_urls = makeUrls(id);
 
   // fetch category and append top bar:
- caller(lesson_urls[0], "c"); // now cat has the same data as global 'category' has the data
- caller(lesson_urls[7],'v');
- // empty content-wrapper area:
+  caller(lesson_urls[0], "c"); // now cat has the same data as global 'category' has the data
+  caller(lesson_urls[7], "v");
+  // empty content-wrapper area:
   document.querySelector(".content-wrapper").innerHTML = "";
-  
 }
 
 // vocabularies fiels:
@@ -137,33 +105,72 @@ function makeUrls(id) {
 }
 
 // sample audio link:
-//+ https://d13tz37rv54ob.cloudfront.net/ur/5yJIklmE-tT6L44G-d2no9epgjQXY1kV?t=1580691716 
-//+ 'https://d13tz37rv54ob.cloudfront.net/ur/' + 
+//+ https://d13tz37rv54ob.cloudfront.net/ur/5yJIklmE-tT6L44G-d2no9epgjQXY1kV?t=1580691716
+//+ 'https://d13tz37rv54ob.cloudfront.net/ur/' +
 // sample image link (phrase-image): 'https://d37sy4vufic209.cloudfront.net/phrase-images/4LxKr9YvDJgNMNCsfBNDDmpo1QDNYJsM'
-function openLesson(e,id){
- console.log('button pressed=> ',e.currentTarget,' ..... and id=> ',id.valueOf());
- let cat_no,lesson_no,url;
- if(id.length==3){
-  cat_no=id.valueOf()[0];
-  lesson_no=cat_no + id.valueOf()[1] +id.valueOf()[2];
- }
- if(id.length==4){
-  cat_no=id.valueOf()[0]+id.valueOf()[1];
-  lesson_no = cat_no + id.valueOf()[2]+id.valueOf()[3];
- }
+function openLesson(e, id) {
+  console.log(
+    "button pressed=> ",
+    e.currentTarget,
+    " ..... and id=> ",
+    id.valueOf()
+  );
+  //  keep this button as pressed:
+  e.currentTarget.style.backgroundColor = "#106DBD";
+  e.currentTarget.style.color = "white";
+  // keep other buttons as initial state
+  resetButtons(id);
 
- url =`https://raw.githubusercontent.com/farisubuntu/urdu-course/gh-pages/data/${cat_no}/${lesson_no}.json`;
- caller(url,'l');
- 
+  let cat_no, lesson_no, url;
+  if (id.length == 3) {
+    cat_no = id.valueOf()[0];
+    lesson_no = cat_no + id.valueOf()[1] + id.valueOf()[2];
+  }
+  if (id.length == 4) {
+    cat_no = id.valueOf()[0] + id.valueOf()[1];
+    lesson_no = cat_no + id.valueOf()[2] + id.valueOf()[3];
+  }
 
+  url = `https://raw.githubusercontent.com/farisubuntu/urdu-course/gh-pages/data/${cat_no}/${lesson_no}.json`;
+  caller(url, "l");
 }
 
-function appendLessonData(){
- console.log('appendLessonData()...all..');
- get_word_template_table();
+function appendLessonData() {
+  console.log("appendLessonData()...all..");
+  get_word_template_table();
+}
+
+function appendVocabularies() {
+  console.log("appendVocabularies()......");
+}
+
+function resetButtons(id) {
+  document.querySelectorAll(".tablinks").forEach(function f(btn) {
+    if (btn.getAttribute("id") !== id) {
+      
+      btn.style.backgroundColor = "initial";
+      btn.style.color = "initial";
+    }
+  });
 }
 
 
-function appendVocabularies(){
- console.log('appendVocabularies()......');
-}
+// media queries
+
+// Create a MediaQueryList object
+// var x = window.matchMedia("(width < 605px)");
+
+
+// function toggleAudioControls(x){
+//  if(x.matches){ // if media query matches
+//   document.querySelectorAll('td.audio audio').forEach(function f(audio){
+//    console.log(audio);
+//    audio.removeAttribute('controls');
+//   });
+//  }
+// }
+
+// toggleAudioControls(x);
+// x.addEventListener("change",function(){
+//  toggleAudioControls(x);
+// });

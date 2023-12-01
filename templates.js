@@ -1,17 +1,15 @@
 function get_card_category(cat) {
   var card = `
   <div class="card" id="${cat.id}">
-   <div img_wrapper><img src="img_avatar2.png" alt="Avatar" style="width: 100%" /></div>
+   <div img_wrapper><img src="images/${cat.id}.jpeg" alt="Avatar" /></div>
    <div class="container">
-    <h4><b>${cat.name}</b></h4>
+    <p><b>${cat.name}</b></p>
     <p class="cat-id">${cat.id}</p>
    </div>
  </div>
 `;
-
   return card;
 }
-
 function get_vocabularies_template(voc) {
   console.log("get_vocabularies_template()...");
 }
@@ -25,7 +23,6 @@ function get_top_bar() {
   <button id="${category.lessons[4].id}" class="tablinks" onclick="openLesson(event, '${category.lessons[4].id}')">${category.lessons[4].name}</button>
   <button id="${category.lessons[5].id}" class="tablinks" onclick="openLesson(event, '${category.lessons[5].id}')">${category.lessons[5].name}</button>
 </div>
-
  `;
   document.querySelector(".nav-header").innerHTML = html;
 }
@@ -33,7 +30,6 @@ function get_top_bar() {
 function get_word_template_table() {
   console.log("get_word_template_table()....");
   console.log(lesson);
-
   console.log(quizzes);
   var const_audio_portion = "https://d13tz37rv54ob.cloudfront.net/ur/";
   var const_image_portion =
@@ -54,7 +50,7 @@ function get_word_template_table() {
       <tr>
         <td class="target">${quizzes[0].alts[0].text}</td>
         <td class="mother">${quizzes[0].sols[0].text}</td>
-        <td class="audio"><audio preload controls>
+        <td class="audio"><i class="fa fa-play"></i><audio preload>
          <source src='${
            const_audio_portion +
            quizzes[0].alts[0].key +
@@ -69,7 +65,7 @@ function get_word_template_table() {
        <tr>
         <td class="target">${quizzes[0].alts[1].text}</td>
         <td class="mother">${quizzes[0].sols[1].text}</td>
-        <td class="audio"><audio preload controls>
+        <td class="audio"><i class="fa fa-play"></i><audio preload>
          <source src='${
            const_audio_portion +
            quizzes[0].alts[1].key +
@@ -84,7 +80,7 @@ function get_word_template_table() {
        <tr>
         <td class="target">${quizzes[0].alts[2].text}</td>
         <td class="mother">${quizzes[0].sols[2].text}</td>
-        <td class="audio"><audio preload controls>
+        <td class="audio"><i class="fa fa-play"></i><audio preload>
          <source src='${
            const_audio_portion +
            quizzes[0].alts[2].key +
@@ -99,7 +95,7 @@ function get_word_template_table() {
        <tr>
         <td class="target">${quizzes[0].alts[3].text}</td>
         <td class="mother">${quizzes[0].sols[3].text}</td>
-        <td class="audio"><audio preload controls>
+        <td class="audio"><i class="fa fa-play"></i><audio preload>
          <source src='${
            const_audio_portion +
            quizzes[0].alts[3].key +
@@ -131,7 +127,7 @@ function get_word_template_table() {
      <div class="cell target">${quizzes[i].alts[k].text}</div>
      <div class="cell mother">${quizzes[i].sols[k].text}</div>
      <div class="cell audio">
-        <audio preload controls>
+        <i class="fa fa-play"></i><audio preload>
          <source src="${
            const_audio_portion +
            quizzes[i].sols[k].key +
@@ -148,8 +144,22 @@ function get_word_template_table() {
     }
   }
 
-  // append to 'div.quizzes' element
-  document.querySelector(".quizzes").innerHTML = phrases;
-  // ----------------------------------------------------
-  // } //end of for...
+ // append to 'div.quizzes' element
+ 
+ document.querySelector(".quizzes").innerHTML = phrases;
+ 
+ // add event listner to all fa-play icons to play next audio
+ //+ element
+ 
+ document.querySelectorAll(".fa-play").forEach(function f(elem){
+  elem.addEventListener("click",playSiblingAudio);
+ });
+
 } // end of get_word_template_table
+
+function playSiblingAudio(target){
+ var elem=target.currentTarget;
+ var audioElem=elem.nextElementSibling;
+ 
+ 
+}
