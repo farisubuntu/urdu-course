@@ -155,12 +155,13 @@ button.home {
 }
 
 .fa{
- cursor: pointer;
  padding:3px 15px;
  background-color: whitesmoke;
  font-size: large;
 }
-
+td.audio,.cell.audio{
+ cursor: pointer;
+}
 
 
 /* media queries */

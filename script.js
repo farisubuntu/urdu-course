@@ -147,30 +147,9 @@ function appendVocabularies() {
 function resetButtons(id) {
   document.querySelectorAll(".tablinks").forEach(function f(btn) {
     if (btn.getAttribute("id") !== id) {
-      
       btn.style.backgroundColor = "initial";
       btn.style.color = "initial";
     }
   });
 }
 
-
-// media queries
-
-// Create a MediaQueryList object
-// var x = window.matchMedia("(width < 605px)");
-
-
-// function toggleAudioControls(x){
-//  if(x.matches){ // if media query matches
-//   document.querySelectorAll('td.audio audio').forEach(function f(audio){
-//    console.log(audio);
-//    audio.removeAttribute('controls');
-//   });
-//  }
-// }
-
-// toggleAudioControls(x);
-// x.addEventListener("change",function(){
-//  toggleAudioControls(x);
-// });

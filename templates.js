@@ -50,8 +50,7 @@ function get_word_template_table() {
       <tr>
         <td class="target">${quizzes[0].alts[0].text}</td>
         <td class="mother">${quizzes[0].sols[0].text}</td>
-        <td class="audio"><i class="fa fa-play"></i><audio preload>
-         <source src='${
+        <td class="audio"><i class="fa fa-play"></i><audio preload="metadata"  src='${
            const_audio_portion +
            quizzes[0].alts[0].key +
            "?t=" +
@@ -65,8 +64,7 @@ function get_word_template_table() {
        <tr>
         <td class="target">${quizzes[0].alts[1].text}</td>
         <td class="mother">${quizzes[0].sols[1].text}</td>
-        <td class="audio"><i class="fa fa-play"></i><audio preload>
-         <source src='${
+        <td class="audio"><i class="fa fa-play"></i><audio preload="metadata"  src='${
            const_audio_portion +
            quizzes[0].alts[1].key +
            "?t=" +
@@ -80,8 +78,7 @@ function get_word_template_table() {
        <tr>
         <td class="target">${quizzes[0].alts[2].text}</td>
         <td class="mother">${quizzes[0].sols[2].text}</td>
-        <td class="audio"><i class="fa fa-play"></i><audio preload>
-         <source src='${
+        <td class="audio"><i class="fa fa-play"></i><audio preload="metadata"  src='${
            const_audio_portion +
            quizzes[0].alts[2].key +
            "?t=" +
@@ -95,8 +92,7 @@ function get_word_template_table() {
        <tr>
         <td class="target">${quizzes[0].alts[3].text}</td>
         <td class="mother">${quizzes[0].sols[3].text}</td>
-        <td class="audio"><i class="fa fa-play"></i><audio preload>
-         <source src='${
+        <td class="audio"><i class="fa fa-play"></i><audio preload="metadata"  src='${
            const_audio_portion +
            quizzes[0].alts[3].key +
            "?t=" +
@@ -127,8 +123,7 @@ function get_word_template_table() {
      <div class="cell target">${quizzes[i].alts[k].text}</div>
      <div class="cell mother">${quizzes[i].sols[k].text}</div>
      <div class="cell audio">
-        <i class="fa fa-play"></i><audio preload>
-         <source src="${
+        <i class="fa fa-play"></i><audio preload="metadata"  src="${
            const_audio_portion +
            quizzes[i].sols[k].key +
            "?t=" +
@@ -144,22 +139,21 @@ function get_word_template_table() {
     }
   }
 
- // append to 'div.quizzes' element
- 
- document.querySelector(".quizzes").innerHTML = phrases;
- 
- // add event listner to all fa-play icons to play next audio
- //+ element
- 
- document.querySelectorAll(".fa-play").forEach(function f(elem){
-  elem.addEventListener("click",playSiblingAudio);
- });
+  // append to 'div.quizzes' element
 
+  document.querySelector(".quizzes").innerHTML = phrases;
+
+  // add event listner to all fa-play icons to play next audio
+  //+ element
+
+  document.querySelectorAll("td.audio,.cell.audio").forEach(function f(elem) {
+    elem.addEventListener("click", playAudio);
+  });
 } // end of get_word_template_table
 
-function playSiblingAudio(target){
- var elem=target.currentTarget;
- var audioElem=elem.nextElementSibling;
- 
- 
+function playAudio(target) {
+  var elem = target.currentTarget;
+  var audioElem = elem.querySelector("audio");
+  console.log(audioElem);
+  audioElem.play();
 }
