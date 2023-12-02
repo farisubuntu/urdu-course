@@ -1,0 +1,3053 @@
+{
+  "dialogue": {
+    "id": 301,
+    "index": 1,
+    "category": 3,
+    "categoryID": 3,
+    "categoryModifiers": 0,
+    "isCourse": false,
+    "name": "سعدتُ بلقائك!",
+    "done": true,
+    "disabled": false,
+    "countItem": 15,
+    "countDone": 15,
+    "countWords": 40,
+    "countPhrases": 15,
+    "dItems": [
+      9336, 9337, 9338, 9339, 9340, 9341, 9342, 9343, 9344, 9345, 9346, 9347,
+      9348, 9349, 9350
+    ]
+  },
+  "dItems": [
+    {
+      "id": 9336,
+      "i": 0,
+      "positionIndex": 0,
+      "dialogue": 301,
+      "wordID": 30562,
+      "key": "P1eLO2sVDmfV31_gAqSGrnkrVRxHkcY-",
+      "done": true,
+      "recorded": false,
+      "sols": [
+        {
+          "text": "مرحبًا!",
+          "dictionary": [{ "raw": "مرحبًا", "translations": [] }]
+        },
+        {
+          "text": "سلام!",
+          "phonetic": "Salam!",
+          "dictionary": [
+            {
+              "raw": "سلام",
+              "translations": [
+                { "type": "dictionary", "text": "مرحبًا", "phonetic": null }
+              ]
+            }
+          ]
+        }
+      ],
+      "audio_updated_at": 1688826309
+    },
+    {
+      "id": 9337,
+      "i": 1,
+      "positionIndex": 1,
+      "dialogue": 301,
+      "wordID": 30563,
+      "key": "n-Odzuu4JlONPP34DoC1v3O_VR9784Kw",
+      "done": true,
+      "recorded": false,
+      "sols": [
+        {
+          "text": "مرحبًا! سعدتُ بلقائك!",
+          "dictionary": [
+            { "raw": "مرحبًا", "translations": [] },
+            { "raw": "سعدتُ", "translations": [] },
+            { "raw": "بلقائك", "translations": [] }
+          ]
+        },
+        {
+          "text": "ہیلو! تم سے مل کر اچھا لگا!",
+          "phonetic": "Hello! Tum say mil kar acha laga!",
+          "dictionary": [
+            {
+              "raw": "ہیلو",
+              "translations": [
+                { "type": "dictionary", "text": "مرحبًا", "phonetic": null }
+              ]
+            },
+            { "raw": "تم", "translations": [] },
+            { "raw": "سے", "translations": [] },
+            { "raw": "مل", "translations": [] },
+            { "raw": "کر", "translations": [] },
+            { "raw": "اچھا", "translations": [] },
+            { "raw": "لگا", "translations": [] }
+          ]
+        }
+      ],
+      "audio_updated_at": 1688826311
+    },
+    {
+      "id": 9338,
+      "i": 2,
+      "positionIndex": 2,
+      "dialogue": 301,
+      "wordID": 30564,
+      "key": "TYk_CfbUxjeb3l2ssDdrUxxNiXeONhd9",
+      "done": true,
+      "recorded": false,
+      "sols": [
+        {
+          "text": "سعدتُ بلقائك، أيضًا.",
+          "dictionary": [
+            { "raw": "سعدتُ", "translations": [] },
+            { "raw": "بلقائك", "translations": [] },
+            { "raw": "أيضًا", "translations": [] }
+          ]
+        },
+        {
+          "text": "تم سے مل کر بھی اچھا لگا۔",
+          "phonetic": "Tum say mil kar bhi acha laga.",
+          "dictionary": [
+            { "raw": "تم", "translations": [] },
+            { "raw": "سے", "translations": [] },
+            { "raw": "مل", "translations": [] },
+            { "raw": "کر", "translations": [] },
+            {
+              "raw": "بھی",
+              "translations": [
+                { "type": "dictionary", "text": "أيضًا", "phonetic": null }
+              ]
+            },
+            { "raw": "اچھا", "translations": [] },
+            { "raw": "لگا", "translations": [] }
+          ]
+        }
+      ],
+      "audio_updated_at": 1688826312
+    },
+    {
+      "id": 9339,
+      "i": 3,
+      "positionIndex": 3,
+      "dialogue": 301,
+      "wordID": 30565,
+      "key": "Vp0qu53LzgRtNFtLO0Z764NFsfVrt3Z-",
+      "done": true,
+      "recorded": false,
+      "sols": [
+        {
+          "text": "من أين أنتِ؟",
+          "dictionary": [
+            { "raw": "من", "translations": [] },
+            { "raw": "أين", "translations": [] },
+            { "raw": "أنتِ", "translations": [] }
+          ]
+        },
+        {
+          "text": "تم کہاں سے ہو؟",
+          "phonetic": "Tum kahan say ho?",
+          "dictionary": [
+            {
+              "raw": "تم",
+              "translations": [
+                { "type": "dictionary", "text": "أنتِ", "phonetic": null }
+              ]
+            },
+            {
+              "raw": "کہاں",
+              "translations": [
+                { "type": "dictionary", "text": "أين", "phonetic": null }
+              ]
+            },
+            {
+              "raw": "سے",
+              "translations": [
+                { "type": "dictionary", "text": "من", "phonetic": null }
+              ]
+            },
+            {
+              "raw": "ہو",
+              "translations": [
+                {
+                  "type": "verb",
+                  "name": {
+                    "t": "متّفق ہونا",
+                    "m": "يوافق",
+                    "phonetic": "muttafiq hona"
+                  },
+                  "id": 1,
+                  "tenseNames": {
+                    "pr": "الحاضر",
+                    "pa": "ماضي",
+                    "fu": "مستقبل"
+                  },
+                  "conj": {
+                    "pr": [
+                      {
+                        "t": {
+                          "key": "ILulDenvPwHSmrUhzuSBdXwvJ-QjKoyp",
+                          "text": "میں متّفق ہوتا ہوں",
+                          "phonetic": "Mein muttafiq hota hoon",
+                          "audio_updated_at": 1580692919
+                        },
+                        "m": { "text": "أنا أوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "tRwjOBCOhXT8RbfFan5KJLMBmu6fw-2b",
+                          "text": "تم متّفق ہوتے ہو",
+                          "phonetic": "Tum muttafiq hotay ho",
+                          "audio_updated_at": 1580692921
+                        },
+                        "m": { "text": "أنت توافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "v1Y_DdoUpq2lF8amygECA1hyoxaXV-gL",
+                          "text": "وہ متّفق ہوتا ہے",
+                          "phonetic": "Wo muttafiq hota hai",
+                          "audio_updated_at": 1580692923
+                        },
+                        "m": { "text": "هو يوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "hXk3UMfDAMi5Nq-Dwy0aSGqR7wUM36CA",
+                          "text": "وہ متّفق ہوتی ہے",
+                          "phonetic": "Wo muttafiq hoti hai",
+                          "audio_updated_at": 1580692925
+                        },
+                        "m": { "text": "هي توافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "Z-7SYfgQPo46ZkGsGcRL7FtMn4JjbMi3",
+                          "text": "ہم متّفق ہوتے ہیں",
+                          "phonetic": "Hum muttafiq hotay hain",
+                          "audio_updated_at": 1580692929
+                        },
+                        "m": { "text": "نحن نوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "YHPOGPQLWeWIL2wzkaadaCzDyOklpbtw",
+                          "text": "آپ متّفق ہوتے ہیں",
+                          "phonetic": "Aap muttafiq hotay hain",
+                          "audio_updated_at": 1580692931
+                        },
+                        "m": { "text": "أنتم توافقون" }
+                      },
+                      {
+                        "t": {
+                          "key": "XstYItwshUedYqu8yaE-eb1JS0dNY_3V",
+                          "text": "وہ متّفق ہوتے ہیں",
+                          "phonetic": "Wo muttafiq hotay hain",
+                          "audio_updated_at": 1580692932
+                        },
+                        "m": { "text": "هم يوافقون" }
+                      }
+                    ],
+                    "pa": [
+                      {
+                        "t": {
+                          "key": "JYIRRloDnLNan4PYnn6hjcvhMcet0WD1",
+                          "text": "میں متّفق ہوا",
+                          "phonetic": "Mein muttafiq hua",
+                          "audio_updated_at": 1580692934
+                        },
+                        "m": { "text": "أنا وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "b89-0T_2GdO9ZWYX6oHtePfHFvl7aGaB",
+                          "text": "تم متّفق ہوئے",
+                          "phonetic": "Tum muttafiq huay",
+                          "audio_updated_at": 1580692936
+                        },
+                        "m": { "text": "أنت وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "5Kesu04ngj6TrurmE3DoV24c2DgiRuPi",
+                          "text": "وہ متّفق ہوا",
+                          "phonetic": "Wo muttafiq hua",
+                          "audio_updated_at": 1580692938
+                        },
+                        "m": { "text": "هو وافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "bJnTTyXZzvvQnFBqzhVFtYdjePdGS8Nt",
+                          "text": "وہ متّفق ہوئی",
+                          "phonetic": "Wo muttafiq hui",
+                          "audio_updated_at": 1580692939
+                        },
+                        "m": { "text": "هي وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "6jbKTg-yy4CpgadT7AGIlL73edwHln5R",
+                          "text": "ہم متّفق ہوئے",
+                          "phonetic": "Hum muttafiq huay",
+                          "audio_updated_at": 1580692943
+                        },
+                        "m": { "text": "نحن وافقنا" }
+                      },
+                      {
+                        "t": {
+                          "key": "Q4O8uGGY0Yz1Runhm2z3jIrtwe4agkSW",
+                          "text": "آپ متّفق ہوئے",
+                          "phonetic": "Aap muttafiq huay",
+                          "audio_updated_at": 1580692945
+                        },
+                        "m": { "text": "أنتم وافقتم" }
+                      },
+                      {
+                        "t": {
+                          "key": "zDR_uqvyzA2xaP4vPmCaHNC6uvkXoLCN",
+                          "text": "وہ متّفق ہوئے",
+                          "phonetic": "Wo muttafiq huay",
+                          "audio_updated_at": 1580692946
+                        },
+                        "m": { "text": "هم وافقوا" }
+                      }
+                    ],
+                    "fu": [
+                      {
+                        "t": {
+                          "key": "j6UK9u9ekeOG_VU6w29oNUVI1n-td3qj",
+                          "text": "میں متّفق ہوں گا",
+                          "phonetic": "Mein muttafiq hoon ga",
+                          "audio_updated_at": 1580692948
+                        },
+                        "m": { "text": "أنا سأوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "oZFt-tLlXNmJnfcC-ZIxitkWJjZsR4DF",
+                          "text": "تم متّفق ہو گے",
+                          "phonetic": "Tum muttafiq ho gay",
+                          "audio_updated_at": 1580692950
+                        },
+                        "m": { "text": "أنت ستوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "f2yewJfPLzDgQBRrXgu_bSesRq5s3WZt",
+                          "text": "وہ متّفق ہوگا",
+                          "phonetic": "Wo muttafiq ho ga",
+                          "audio_updated_at": 1580692952
+                        },
+                        "m": { "text": "هو سيوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "POlQ-7Y26Fy6JIDgWRrGgyrosRQvgJf4",
+                          "text": "وہ متّفق ہو گی",
+                          "phonetic": "Wo muttafiq ho gi",
+                          "audio_updated_at": 1580692954
+                        },
+                        "m": { "text": "هي ستوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "2nh6PEhVjxPVdsWh42jrcdntSDcy7Stp",
+                          "text": "ہم متّفق ہوں گے",
+                          "phonetic": "Hum muttafiq hon gay",
+                          "audio_updated_at": 1580692958
+                        },
+                        "m": { "text": "نحن سنوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "_TThGfBkwBU1nh9vEXcVXqLAmJKoZ8AG",
+                          "text": "آپ متّفق ہوں گے",
+                          "phonetic": "Aap muttafiq hon gay",
+                          "audio_updated_at": 1580692960
+                        },
+                        "m": { "text": "أنتم ستوافقون" }
+                      },
+                      {
+                        "t": {
+                          "key": "Nl3attkofIOZbIBetJNNRmJIThUIiO3O",
+                          "text": "وہ متّفق ہوں گے",
+                          "phonetic": "Wo muttafiq hon gay",
+                          "audio_updated_at": 1580692962
+                        },
+                        "m": { "text": "هم سيوافقون" }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audio_updated_at": 1688826314
+    },
+    {
+      "id": 9340,
+      "i": 4,
+      "positionIndex": 4,
+      "dialogue": 301,
+      "wordID": 30566,
+      "key": "CdWt8m0-0M-xbco4QM5Py5sic9qmj3gS",
+      "done": true,
+      "recorded": false,
+      "sols": [
+        {
+          "text": "أنا من الأرجنتين. وأنت؟",
+          "dictionary": [
+            { "raw": "أنا", "translations": [] },
+            { "raw": "من", "translations": [] },
+            { "raw": "الأرجنتين", "translations": [] },
+            { "raw": "وأنت", "translations": [] }
+          ]
+        },
+        {
+          "text": "میں ارجنٹینا سے ہوں۔ اور تم؟",
+          "phonetic": "Mein Argentina say hoon. Aur tum?",
+          "dictionary": [
+            {
+              "raw": "میں",
+              "translations": [
+                { "type": "dictionary", "text": "أنا", "phonetic": null }
+              ]
+            },
+            { "raw": "ارجنٹینا", "translations": [] },
+            {
+              "raw": "سے",
+              "translations": [
+                { "type": "dictionary", "text": "من", "phonetic": null }
+              ]
+            },
+            {
+              "raw": "ہوں",
+              "translations": [
+                {
+                  "type": "verb",
+                  "name": {
+                    "t": "متّفق ہونا",
+                    "m": "يوافق",
+                    "phonetic": "muttafiq hona"
+                  },
+                  "id": 1,
+                  "tenseNames": {
+                    "pr": "الحاضر",
+                    "pa": "ماضي",
+                    "fu": "مستقبل"
+                  },
+                  "conj": {
+                    "pr": [
+                      {
+                        "t": {
+                          "key": "ILulDenvPwHSmrUhzuSBdXwvJ-QjKoyp",
+                          "text": "میں متّفق ہوتا ہوں",
+                          "phonetic": "Mein muttafiq hota hoon",
+                          "audio_updated_at": 1580692919
+                        },
+                        "m": { "text": "أنا أوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "tRwjOBCOhXT8RbfFan5KJLMBmu6fw-2b",
+                          "text": "تم متّفق ہوتے ہو",
+                          "phonetic": "Tum muttafiq hotay ho",
+                          "audio_updated_at": 1580692921
+                        },
+                        "m": { "text": "أنت توافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "v1Y_DdoUpq2lF8amygECA1hyoxaXV-gL",
+                          "text": "وہ متّفق ہوتا ہے",
+                          "phonetic": "Wo muttafiq hota hai",
+                          "audio_updated_at": 1580692923
+                        },
+                        "m": { "text": "هو يوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "hXk3UMfDAMi5Nq-Dwy0aSGqR7wUM36CA",
+                          "text": "وہ متّفق ہوتی ہے",
+                          "phonetic": "Wo muttafiq hoti hai",
+                          "audio_updated_at": 1580692925
+                        },
+                        "m": { "text": "هي توافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "Z-7SYfgQPo46ZkGsGcRL7FtMn4JjbMi3",
+                          "text": "ہم متّفق ہوتے ہیں",
+                          "phonetic": "Hum muttafiq hotay hain",
+                          "audio_updated_at": 1580692929
+                        },
+                        "m": { "text": "نحن نوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "YHPOGPQLWeWIL2wzkaadaCzDyOklpbtw",
+                          "text": "آپ متّفق ہوتے ہیں",
+                          "phonetic": "Aap muttafiq hotay hain",
+                          "audio_updated_at": 1580692931
+                        },
+                        "m": { "text": "أنتم توافقون" }
+                      },
+                      {
+                        "t": {
+                          "key": "XstYItwshUedYqu8yaE-eb1JS0dNY_3V",
+                          "text": "وہ متّفق ہوتے ہیں",
+                          "phonetic": "Wo muttafiq hotay hain",
+                          "audio_updated_at": 1580692932
+                        },
+                        "m": { "text": "هم يوافقون" }
+                      }
+                    ],
+                    "pa": [
+                      {
+                        "t": {
+                          "key": "JYIRRloDnLNan4PYnn6hjcvhMcet0WD1",
+                          "text": "میں متّفق ہوا",
+                          "phonetic": "Mein muttafiq hua",
+                          "audio_updated_at": 1580692934
+                        },
+                        "m": { "text": "أنا وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "b89-0T_2GdO9ZWYX6oHtePfHFvl7aGaB",
+                          "text": "تم متّفق ہوئے",
+                          "phonetic": "Tum muttafiq huay",
+                          "audio_updated_at": 1580692936
+                        },
+                        "m": { "text": "أنت وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "5Kesu04ngj6TrurmE3DoV24c2DgiRuPi",
+                          "text": "وہ متّفق ہوا",
+                          "phonetic": "Wo muttafiq hua",
+                          "audio_updated_at": 1580692938
+                        },
+                        "m": { "text": "هو وافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "bJnTTyXZzvvQnFBqzhVFtYdjePdGS8Nt",
+                          "text": "وہ متّفق ہوئی",
+                          "phonetic": "Wo muttafiq hui",
+                          "audio_updated_at": 1580692939
+                        },
+                        "m": { "text": "هي وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "6jbKTg-yy4CpgadT7AGIlL73edwHln5R",
+                          "text": "ہم متّفق ہوئے",
+                          "phonetic": "Hum muttafiq huay",
+                          "audio_updated_at": 1580692943
+                        },
+                        "m": { "text": "نحن وافقنا" }
+                      },
+                      {
+                        "t": {
+                          "key": "Q4O8uGGY0Yz1Runhm2z3jIrtwe4agkSW",
+                          "text": "آپ متّفق ہوئے",
+                          "phonetic": "Aap muttafiq huay",
+                          "audio_updated_at": 1580692945
+                        },
+                        "m": { "text": "أنتم وافقتم" }
+                      },
+                      {
+                        "t": {
+                          "key": "zDR_uqvyzA2xaP4vPmCaHNC6uvkXoLCN",
+                          "text": "وہ متّفق ہوئے",
+                          "phonetic": "Wo muttafiq huay",
+                          "audio_updated_at": 1580692946
+                        },
+                        "m": { "text": "هم وافقوا" }
+                      }
+                    ],
+                    "fu": [
+                      {
+                        "t": {
+                          "key": "j6UK9u9ekeOG_VU6w29oNUVI1n-td3qj",
+                          "text": "میں متّفق ہوں گا",
+                          "phonetic": "Mein muttafiq hoon ga",
+                          "audio_updated_at": 1580692948
+                        },
+                        "m": { "text": "أنا سأوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "oZFt-tLlXNmJnfcC-ZIxitkWJjZsR4DF",
+                          "text": "تم متّفق ہو گے",
+                          "phonetic": "Tum muttafiq ho gay",
+                          "audio_updated_at": 1580692950
+                        },
+                        "m": { "text": "أنت ستوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "f2yewJfPLzDgQBRrXgu_bSesRq5s3WZt",
+                          "text": "وہ متّفق ہوگا",
+                          "phonetic": "Wo muttafiq ho ga",
+                          "audio_updated_at": 1580692952
+                        },
+                        "m": { "text": "هو سيوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "POlQ-7Y26Fy6JIDgWRrGgyrosRQvgJf4",
+                          "text": "وہ متّفق ہو گی",
+                          "phonetic": "Wo muttafiq ho gi",
+                          "audio_updated_at": 1580692954
+                        },
+                        "m": { "text": "هي ستوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "2nh6PEhVjxPVdsWh42jrcdntSDcy7Stp",
+                          "text": "ہم متّفق ہوں گے",
+                          "phonetic": "Hum muttafiq hon gay",
+                          "audio_updated_at": 1580692958
+                        },
+                        "m": { "text": "نحن سنوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "_TThGfBkwBU1nh9vEXcVXqLAmJKoZ8AG",
+                          "text": "آپ متّفق ہوں گے",
+                          "phonetic": "Aap muttafiq hon gay",
+                          "audio_updated_at": 1580692960
+                        },
+                        "m": { "text": "أنتم ستوافقون" }
+                      },
+                      {
+                        "t": {
+                          "key": "Nl3attkofIOZbIBetJNNRmJIThUIiO3O",
+                          "text": "وہ متّفق ہوں گے",
+                          "phonetic": "Wo muttafiq hon gay",
+                          "audio_updated_at": 1580692962
+                        },
+                        "m": { "text": "هم سيوافقون" }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            { "raw": "اور", "translations": [] },
+            {
+              "raw": "تم",
+              "translations": [
+                { "type": "dictionary", "text": "وأنت", "phonetic": null }
+              ]
+            }
+          ]
+        }
+      ],
+      "audio_updated_at": 1688826315
+    },
+    {
+      "id": 9341,
+      "i": 5,
+      "positionIndex": 5,
+      "dialogue": 301,
+      "wordID": 30567,
+      "key": "Hp0H1t9J2N3iJMv9tse-tzFSRT7hJlm3",
+      "done": true,
+      "recorded": false,
+      "sols": [
+        {
+          "text": "أنا من كندا.",
+          "dictionary": [
+            { "raw": "أنا", "translations": [] },
+            { "raw": "من", "translations": [] },
+            { "raw": "كندا", "translations": [] }
+          ]
+        },
+        {
+          "text": "میں کینیڈا سے ہوں۔",
+          "phonetic": "Mein Canada say hoon.",
+          "dictionary": [
+            {
+              "raw": "میں",
+              "translations": [
+                { "type": "dictionary", "text": "أنا", "phonetic": null }
+              ]
+            },
+            {
+              "raw": "کینیڈا",
+              "translations": [
+                { "type": "dictionary", "text": "كندا", "phonetic": null }
+              ]
+            },
+            {
+              "raw": "سے",
+              "translations": [
+                { "type": "dictionary", "text": "من", "phonetic": null }
+              ]
+            },
+            {
+              "raw": "ہوں",
+              "translations": [
+                {
+                  "type": "verb",
+                  "name": {
+                    "t": "متّفق ہونا",
+                    "m": "يوافق",
+                    "phonetic": "muttafiq hona"
+                  },
+                  "id": 1,
+                  "tenseNames": {
+                    "pr": "الحاضر",
+                    "pa": "ماضي",
+                    "fu": "مستقبل"
+                  },
+                  "conj": {
+                    "pr": [
+                      {
+                        "t": {
+                          "key": "ILulDenvPwHSmrUhzuSBdXwvJ-QjKoyp",
+                          "text": "میں متّفق ہوتا ہوں",
+                          "phonetic": "Mein muttafiq hota hoon",
+                          "audio_updated_at": 1580692919
+                        },
+                        "m": { "text": "أنا أوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "tRwjOBCOhXT8RbfFan5KJLMBmu6fw-2b",
+                          "text": "تم متّفق ہوتے ہو",
+                          "phonetic": "Tum muttafiq hotay ho",
+                          "audio_updated_at": 1580692921
+                        },
+                        "m": { "text": "أنت توافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "v1Y_DdoUpq2lF8amygECA1hyoxaXV-gL",
+                          "text": "وہ متّفق ہوتا ہے",
+                          "phonetic": "Wo muttafiq hota hai",
+                          "audio_updated_at": 1580692923
+                        },
+                        "m": { "text": "هو يوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "hXk3UMfDAMi5Nq-Dwy0aSGqR7wUM36CA",
+                          "text": "وہ متّفق ہوتی ہے",
+                          "phonetic": "Wo muttafiq hoti hai",
+                          "audio_updated_at": 1580692925
+                        },
+                        "m": { "text": "هي توافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "Z-7SYfgQPo46ZkGsGcRL7FtMn4JjbMi3",
+                          "text": "ہم متّفق ہوتے ہیں",
+                          "phonetic": "Hum muttafiq hotay hain",
+                          "audio_updated_at": 1580692929
+                        },
+                        "m": { "text": "نحن نوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "YHPOGPQLWeWIL2wzkaadaCzDyOklpbtw",
+                          "text": "آپ متّفق ہوتے ہیں",
+                          "phonetic": "Aap muttafiq hotay hain",
+                          "audio_updated_at": 1580692931
+                        },
+                        "m": { "text": "أنتم توافقون" }
+                      },
+                      {
+                        "t": {
+                          "key": "XstYItwshUedYqu8yaE-eb1JS0dNY_3V",
+                          "text": "وہ متّفق ہوتے ہیں",
+                          "phonetic": "Wo muttafiq hotay hain",
+                          "audio_updated_at": 1580692932
+                        },
+                        "m": { "text": "هم يوافقون" }
+                      }
+                    ],
+                    "pa": [
+                      {
+                        "t": {
+                          "key": "JYIRRloDnLNan4PYnn6hjcvhMcet0WD1",
+                          "text": "میں متّفق ہوا",
+                          "phonetic": "Mein muttafiq hua",
+                          "audio_updated_at": 1580692934
+                        },
+                        "m": { "text": "أنا وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "b89-0T_2GdO9ZWYX6oHtePfHFvl7aGaB",
+                          "text": "تم متّفق ہوئے",
+                          "phonetic": "Tum muttafiq huay",
+                          "audio_updated_at": 1580692936
+                        },
+                        "m": { "text": "أنت وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "5Kesu04ngj6TrurmE3DoV24c2DgiRuPi",
+                          "text": "وہ متّفق ہوا",
+                          "phonetic": "Wo muttafiq hua",
+                          "audio_updated_at": 1580692938
+                        },
+                        "m": { "text": "هو وافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "bJnTTyXZzvvQnFBqzhVFtYdjePdGS8Nt",
+                          "text": "وہ متّفق ہوئی",
+                          "phonetic": "Wo muttafiq hui",
+                          "audio_updated_at": 1580692939
+                        },
+                        "m": { "text": "هي وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "6jbKTg-yy4CpgadT7AGIlL73edwHln5R",
+                          "text": "ہم متّفق ہوئے",
+                          "phonetic": "Hum muttafiq huay",
+                          "audio_updated_at": 1580692943
+                        },
+                        "m": { "text": "نحن وافقنا" }
+                      },
+                      {
+                        "t": {
+                          "key": "Q4O8uGGY0Yz1Runhm2z3jIrtwe4agkSW",
+                          "text": "آپ متّفق ہوئے",
+                          "phonetic": "Aap muttafiq huay",
+                          "audio_updated_at": 1580692945
+                        },
+                        "m": { "text": "أنتم وافقتم" }
+                      },
+                      {
+                        "t": {
+                          "key": "zDR_uqvyzA2xaP4vPmCaHNC6uvkXoLCN",
+                          "text": "وہ متّفق ہوئے",
+                          "phonetic": "Wo muttafiq huay",
+                          "audio_updated_at": 1580692946
+                        },
+                        "m": { "text": "هم وافقوا" }
+                      }
+                    ],
+                    "fu": [
+                      {
+                        "t": {
+                          "key": "j6UK9u9ekeOG_VU6w29oNUVI1n-td3qj",
+                          "text": "میں متّفق ہوں گا",
+                          "phonetic": "Mein muttafiq hoon ga",
+                          "audio_updated_at": 1580692948
+                        },
+                        "m": { "text": "أنا سأوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "oZFt-tLlXNmJnfcC-ZIxitkWJjZsR4DF",
+                          "text": "تم متّفق ہو گے",
+                          "phonetic": "Tum muttafiq ho gay",
+                          "audio_updated_at": 1580692950
+                        },
+                        "m": { "text": "أنت ستوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "f2yewJfPLzDgQBRrXgu_bSesRq5s3WZt",
+                          "text": "وہ متّفق ہوگا",
+                          "phonetic": "Wo muttafiq ho ga",
+                          "audio_updated_at": 1580692952
+                        },
+                        "m": { "text": "هو سيوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "POlQ-7Y26Fy6JIDgWRrGgyrosRQvgJf4",
+                          "text": "وہ متّفق ہو گی",
+                          "phonetic": "Wo muttafiq ho gi",
+                          "audio_updated_at": 1580692954
+                        },
+                        "m": { "text": "هي ستوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "2nh6PEhVjxPVdsWh42jrcdntSDcy7Stp",
+                          "text": "ہم متّفق ہوں گے",
+                          "phonetic": "Hum muttafiq hon gay",
+                          "audio_updated_at": 1580692958
+                        },
+                        "m": { "text": "نحن سنوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "_TThGfBkwBU1nh9vEXcVXqLAmJKoZ8AG",
+                          "text": "آپ متّفق ہوں گے",
+                          "phonetic": "Aap muttafiq hon gay",
+                          "audio_updated_at": 1580692960
+                        },
+                        "m": { "text": "أنتم ستوافقون" }
+                      },
+                      {
+                        "t": {
+                          "key": "Nl3attkofIOZbIBetJNNRmJIThUIiO3O",
+                          "text": "وہ متّفق ہوں گے",
+                          "phonetic": "Wo muttafiq hon gay",
+                          "audio_updated_at": 1580692962
+                        },
+                        "m": { "text": "هم سيوافقون" }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audio_updated_at": 1688826316
+    },
+    {
+      "id": 9342,
+      "i": 6,
+      "positionIndex": 6,
+      "dialogue": 301,
+      "wordID": 30568,
+      "key": "iD7bhPwslrMeJT4WFrf4KcXl0P8cQWZq",
+      "done": true,
+      "recorded": false,
+      "sols": [
+        {
+          "text": "رائع! كندا بلد جميل.",
+          "dictionary": [
+            { "raw": "رائع", "translations": [] },
+            { "raw": "كندا", "translations": [] },
+            { "raw": "بلد", "translations": [] },
+            { "raw": "جميل", "translations": [] }
+          ]
+        },
+        {
+          "text": "اچھا! کینیڈا ایک خوبصورت ملک ہے۔",
+          "phonetic": "Acha! Canada aik khoobsoorat mulk hai.",
+          "dictionary": [
+            { "raw": "اچھا", "translations": [] },
+            {
+              "raw": "کینیڈا",
+              "translations": [
+                { "type": "dictionary", "text": "كندا", "phonetic": null }
+              ]
+            },
+            { "raw": "ایک", "translations": [] },
+            {
+              "raw": "خوبصورت",
+              "translations": [
+                { "type": "dictionary", "text": "جميل", "phonetic": null }
+              ]
+            },
+            {
+              "raw": "ملک",
+              "translations": [
+                { "type": "dictionary", "text": "بلد", "phonetic": null }
+              ]
+            },
+            {
+              "raw": "ہے",
+              "translations": [
+                {
+                  "type": "verb",
+                  "name": {
+                    "t": "متّفق ہونا",
+                    "m": "يوافق",
+                    "phonetic": "muttafiq hona"
+                  },
+                  "id": 1,
+                  "tenseNames": {
+                    "pr": "الحاضر",
+                    "pa": "ماضي",
+                    "fu": "مستقبل"
+                  },
+                  "conj": {
+                    "pr": [
+                      {
+                        "t": {
+                          "key": "ILulDenvPwHSmrUhzuSBdXwvJ-QjKoyp",
+                          "text": "میں متّفق ہوتا ہوں",
+                          "phonetic": "Mein muttafiq hota hoon",
+                          "audio_updated_at": 1580692919
+                        },
+                        "m": { "text": "أنا أوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "tRwjOBCOhXT8RbfFan5KJLMBmu6fw-2b",
+                          "text": "تم متّفق ہوتے ہو",
+                          "phonetic": "Tum muttafiq hotay ho",
+                          "audio_updated_at": 1580692921
+                        },
+                        "m": { "text": "أنت توافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "v1Y_DdoUpq2lF8amygECA1hyoxaXV-gL",
+                          "text": "وہ متّفق ہوتا ہے",
+                          "phonetic": "Wo muttafiq hota hai",
+                          "audio_updated_at": 1580692923
+                        },
+                        "m": { "text": "هو يوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "hXk3UMfDAMi5Nq-Dwy0aSGqR7wUM36CA",
+                          "text": "وہ متّفق ہوتی ہے",
+                          "phonetic": "Wo muttafiq hoti hai",
+                          "audio_updated_at": 1580692925
+                        },
+                        "m": { "text": "هي توافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "Z-7SYfgQPo46ZkGsGcRL7FtMn4JjbMi3",
+                          "text": "ہم متّفق ہوتے ہیں",
+                          "phonetic": "Hum muttafiq hotay hain",
+                          "audio_updated_at": 1580692929
+                        },
+                        "m": { "text": "نحن نوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "YHPOGPQLWeWIL2wzkaadaCzDyOklpbtw",
+                          "text": "آپ متّفق ہوتے ہیں",
+                          "phonetic": "Aap muttafiq hotay hain",
+                          "audio_updated_at": 1580692931
+                        },
+                        "m": { "text": "أنتم توافقون" }
+                      },
+                      {
+                        "t": {
+                          "key": "XstYItwshUedYqu8yaE-eb1JS0dNY_3V",
+                          "text": "وہ متّفق ہوتے ہیں",
+                          "phonetic": "Wo muttafiq hotay hain",
+                          "audio_updated_at": 1580692932
+                        },
+                        "m": { "text": "هم يوافقون" }
+                      }
+                    ],
+                    "pa": [
+                      {
+                        "t": {
+                          "key": "JYIRRloDnLNan4PYnn6hjcvhMcet0WD1",
+                          "text": "میں متّفق ہوا",
+                          "phonetic": "Mein muttafiq hua",
+                          "audio_updated_at": 1580692934
+                        },
+                        "m": { "text": "أنا وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "b89-0T_2GdO9ZWYX6oHtePfHFvl7aGaB",
+                          "text": "تم متّفق ہوئے",
+                          "phonetic": "Tum muttafiq huay",
+                          "audio_updated_at": 1580692936
+                        },
+                        "m": { "text": "أنت وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "5Kesu04ngj6TrurmE3DoV24c2DgiRuPi",
+                          "text": "وہ متّفق ہوا",
+                          "phonetic": "Wo muttafiq hua",
+                          "audio_updated_at": 1580692938
+                        },
+                        "m": { "text": "هو وافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "bJnTTyXZzvvQnFBqzhVFtYdjePdGS8Nt",
+                          "text": "وہ متّفق ہوئی",
+                          "phonetic": "Wo muttafiq hui",
+                          "audio_updated_at": 1580692939
+                        },
+                        "m": { "text": "هي وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "6jbKTg-yy4CpgadT7AGIlL73edwHln5R",
+                          "text": "ہم متّفق ہوئے",
+                          "phonetic": "Hum muttafiq huay",
+                          "audio_updated_at": 1580692943
+                        },
+                        "m": { "text": "نحن وافقنا" }
+                      },
+                      {
+                        "t": {
+                          "key": "Q4O8uGGY0Yz1Runhm2z3jIrtwe4agkSW",
+                          "text": "آپ متّفق ہوئے",
+                          "phonetic": "Aap muttafiq huay",
+                          "audio_updated_at": 1580692945
+                        },
+                        "m": { "text": "أنتم وافقتم" }
+                      },
+                      {
+                        "t": {
+                          "key": "zDR_uqvyzA2xaP4vPmCaHNC6uvkXoLCN",
+                          "text": "وہ متّفق ہوئے",
+                          "phonetic": "Wo muttafiq huay",
+                          "audio_updated_at": 1580692946
+                        },
+                        "m": { "text": "هم وافقوا" }
+                      }
+                    ],
+                    "fu": [
+                      {
+                        "t": {
+                          "key": "j6UK9u9ekeOG_VU6w29oNUVI1n-td3qj",
+                          "text": "میں متّفق ہوں گا",
+                          "phonetic": "Mein muttafiq hoon ga",
+                          "audio_updated_at": 1580692948
+                        },
+                        "m": { "text": "أنا سأوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "oZFt-tLlXNmJnfcC-ZIxitkWJjZsR4DF",
+                          "text": "تم متّفق ہو گے",
+                          "phonetic": "Tum muttafiq ho gay",
+                          "audio_updated_at": 1580692950
+                        },
+                        "m": { "text": "أنت ستوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "f2yewJfPLzDgQBRrXgu_bSesRq5s3WZt",
+                          "text": "وہ متّفق ہوگا",
+                          "phonetic": "Wo muttafiq ho ga",
+                          "audio_updated_at": 1580692952
+                        },
+                        "m": { "text": "هو سيوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "POlQ-7Y26Fy6JIDgWRrGgyrosRQvgJf4",
+                          "text": "وہ متّفق ہو گی",
+                          "phonetic": "Wo muttafiq ho gi",
+                          "audio_updated_at": 1580692954
+                        },
+                        "m": { "text": "هي ستوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "2nh6PEhVjxPVdsWh42jrcdntSDcy7Stp",
+                          "text": "ہم متّفق ہوں گے",
+                          "phonetic": "Hum muttafiq hon gay",
+                          "audio_updated_at": 1580692958
+                        },
+                        "m": { "text": "نحن سنوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "_TThGfBkwBU1nh9vEXcVXqLAmJKoZ8AG",
+                          "text": "آپ متّفق ہوں گے",
+                          "phonetic": "Aap muttafiq hon gay",
+                          "audio_updated_at": 1580692960
+                        },
+                        "m": { "text": "أنتم ستوافقون" }
+                      },
+                      {
+                        "t": {
+                          "key": "Nl3attkofIOZbIBetJNNRmJIThUIiO3O",
+                          "text": "وہ متّفق ہوں گے",
+                          "phonetic": "Wo muttafiq hon gay",
+                          "audio_updated_at": 1580692962
+                        },
+                        "m": { "text": "هم سيوافقون" }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audio_updated_at": 1688826318
+    },
+    {
+      "id": 9343,
+      "i": 7,
+      "positionIndex": 7,
+      "dialogue": 301,
+      "wordID": 30569,
+      "key": "QxhSt6smmyCUv_mL8zj7wy60yewmEmfK",
+      "done": true,
+      "recorded": false,
+      "sols": [
+        {
+          "text": "نعم، إنه كذلك. إذن، هل تعيشين هنا في إنجلترا؟",
+          "dictionary": [
+            { "raw": "نعم", "translations": [] },
+            { "raw": "إنه", "translations": [] },
+            { "raw": "كذلك", "translations": [] },
+            { "raw": "إذن", "translations": [] },
+            { "raw": "هل", "translations": [] },
+            { "raw": "تعيشين", "translations": [] },
+            { "raw": "هنا", "translations": [] },
+            { "raw": "في", "translations": [] },
+            { "raw": "إنجلترا", "translations": [] }
+          ]
+        },
+        {
+          "text": "ہاں، بالکل۔ تو، تم یہاں انگلستان میں رہتی ہو؟",
+          "phonetic": "Haan, bilkul. Tho tum yahan Englistaan mein rehti ho?",
+          "dictionary": [
+            {
+              "raw": "ہاں",
+              "translations": [
+                { "type": "dictionary", "text": "نعم", "phonetic": null }
+              ]
+            },
+            { "raw": "بالکل", "translations": [] },
+            { "raw": "تو", "translations": [] },
+            { "raw": "تم", "translations": [] },
+            {
+              "raw": "یہاں",
+              "translations": [
+                { "type": "dictionary", "text": "هنا", "phonetic": null }
+              ]
+            },
+            {
+              "raw": "انگلستان",
+              "translations": [
+                { "type": "dictionary", "text": "إنجلترا", "phonetic": null }
+              ]
+            },
+            { "raw": "میں", "translations": [] },
+            { "raw": "رہتی", "translations": [] },
+            {
+              "raw": "ہو",
+              "translations": [
+                { "type": "dictionary", "text": "نعم", "phonetic": null },
+                {
+                  "type": "verb",
+                  "name": {
+                    "t": "متّفق ہونا",
+                    "m": "يوافق",
+                    "phonetic": "muttafiq hona"
+                  },
+                  "id": 1,
+                  "tenseNames": {
+                    "pr": "الحاضر",
+                    "pa": "ماضي",
+                    "fu": "مستقبل"
+                  },
+                  "conj": {
+                    "pr": [
+                      {
+                        "t": {
+                          "key": "ILulDenvPwHSmrUhzuSBdXwvJ-QjKoyp",
+                          "text": "میں متّفق ہوتا ہوں",
+                          "phonetic": "Mein muttafiq hota hoon",
+                          "audio_updated_at": 1580692919
+                        },
+                        "m": { "text": "أنا أوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "tRwjOBCOhXT8RbfFan5KJLMBmu6fw-2b",
+                          "text": "تم متّفق ہوتے ہو",
+                          "phonetic": "Tum muttafiq hotay ho",
+                          "audio_updated_at": 1580692921
+                        },
+                        "m": { "text": "أنت توافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "v1Y_DdoUpq2lF8amygECA1hyoxaXV-gL",
+                          "text": "وہ متّفق ہوتا ہے",
+                          "phonetic": "Wo muttafiq hota hai",
+                          "audio_updated_at": 1580692923
+                        },
+                        "m": { "text": "هو يوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "hXk3UMfDAMi5Nq-Dwy0aSGqR7wUM36CA",
+                          "text": "وہ متّفق ہوتی ہے",
+                          "phonetic": "Wo muttafiq hoti hai",
+                          "audio_updated_at": 1580692925
+                        },
+                        "m": { "text": "هي توافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "Z-7SYfgQPo46ZkGsGcRL7FtMn4JjbMi3",
+                          "text": "ہم متّفق ہوتے ہیں",
+                          "phonetic": "Hum muttafiq hotay hain",
+                          "audio_updated_at": 1580692929
+                        },
+                        "m": { "text": "نحن نوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "YHPOGPQLWeWIL2wzkaadaCzDyOklpbtw",
+                          "text": "آپ متّفق ہوتے ہیں",
+                          "phonetic": "Aap muttafiq hotay hain",
+                          "audio_updated_at": 1580692931
+                        },
+                        "m": { "text": "أنتم توافقون" }
+                      },
+                      {
+                        "t": {
+                          "key": "XstYItwshUedYqu8yaE-eb1JS0dNY_3V",
+                          "text": "وہ متّفق ہوتے ہیں",
+                          "phonetic": "Wo muttafiq hotay hain",
+                          "audio_updated_at": 1580692932
+                        },
+                        "m": { "text": "هم يوافقون" }
+                      }
+                    ],
+                    "pa": [
+                      {
+                        "t": {
+                          "key": "JYIRRloDnLNan4PYnn6hjcvhMcet0WD1",
+                          "text": "میں متّفق ہوا",
+                          "phonetic": "Mein muttafiq hua",
+                          "audio_updated_at": 1580692934
+                        },
+                        "m": { "text": "أنا وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "b89-0T_2GdO9ZWYX6oHtePfHFvl7aGaB",
+                          "text": "تم متّفق ہوئے",
+                          "phonetic": "Tum muttafiq huay",
+                          "audio_updated_at": 1580692936
+                        },
+                        "m": { "text": "أنت وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "5Kesu04ngj6TrurmE3DoV24c2DgiRuPi",
+                          "text": "وہ متّفق ہوا",
+                          "phonetic": "Wo muttafiq hua",
+                          "audio_updated_at": 1580692938
+                        },
+                        "m": { "text": "هو وافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "bJnTTyXZzvvQnFBqzhVFtYdjePdGS8Nt",
+                          "text": "وہ متّفق ہوئی",
+                          "phonetic": "Wo muttafiq hui",
+                          "audio_updated_at": 1580692939
+                        },
+                        "m": { "text": "هي وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "6jbKTg-yy4CpgadT7AGIlL73edwHln5R",
+                          "text": "ہم متّفق ہوئے",
+                          "phonetic": "Hum muttafiq huay",
+                          "audio_updated_at": 1580692943
+                        },
+                        "m": { "text": "نحن وافقنا" }
+                      },
+                      {
+                        "t": {
+                          "key": "Q4O8uGGY0Yz1Runhm2z3jIrtwe4agkSW",
+                          "text": "آپ متّفق ہوئے",
+                          "phonetic": "Aap muttafiq huay",
+                          "audio_updated_at": 1580692945
+                        },
+                        "m": { "text": "أنتم وافقتم" }
+                      },
+                      {
+                        "t": {
+                          "key": "zDR_uqvyzA2xaP4vPmCaHNC6uvkXoLCN",
+                          "text": "وہ متّفق ہوئے",
+                          "phonetic": "Wo muttafiq huay",
+                          "audio_updated_at": 1580692946
+                        },
+                        "m": { "text": "هم وافقوا" }
+                      }
+                    ],
+                    "fu": [
+                      {
+                        "t": {
+                          "key": "j6UK9u9ekeOG_VU6w29oNUVI1n-td3qj",
+                          "text": "میں متّفق ہوں گا",
+                          "phonetic": "Mein muttafiq hoon ga",
+                          "audio_updated_at": 1580692948
+                        },
+                        "m": { "text": "أنا سأوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "oZFt-tLlXNmJnfcC-ZIxitkWJjZsR4DF",
+                          "text": "تم متّفق ہو گے",
+                          "phonetic": "Tum muttafiq ho gay",
+                          "audio_updated_at": 1580692950
+                        },
+                        "m": { "text": "أنت ستوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "f2yewJfPLzDgQBRrXgu_bSesRq5s3WZt",
+                          "text": "وہ متّفق ہوگا",
+                          "phonetic": "Wo muttafiq ho ga",
+                          "audio_updated_at": 1580692952
+                        },
+                        "m": { "text": "هو سيوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "POlQ-7Y26Fy6JIDgWRrGgyrosRQvgJf4",
+                          "text": "وہ متّفق ہو گی",
+                          "phonetic": "Wo muttafiq ho gi",
+                          "audio_updated_at": 1580692954
+                        },
+                        "m": { "text": "هي ستوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "2nh6PEhVjxPVdsWh42jrcdntSDcy7Stp",
+                          "text": "ہم متّفق ہوں گے",
+                          "phonetic": "Hum muttafiq hon gay",
+                          "audio_updated_at": 1580692958
+                        },
+                        "m": { "text": "نحن سنوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "_TThGfBkwBU1nh9vEXcVXqLAmJKoZ8AG",
+                          "text": "آپ متّفق ہوں گے",
+                          "phonetic": "Aap muttafiq hon gay",
+                          "audio_updated_at": 1580692960
+                        },
+                        "m": { "text": "أنتم ستوافقون" }
+                      },
+                      {
+                        "t": {
+                          "key": "Nl3attkofIOZbIBetJNNRmJIThUIiO3O",
+                          "text": "وہ متّفق ہوں گے",
+                          "phonetic": "Wo muttafiq hon gay",
+                          "audio_updated_at": 1580692962
+                        },
+                        "m": { "text": "هم سيوافقون" }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audio_updated_at": 1688826319
+    },
+    {
+      "id": 9344,
+      "i": 8,
+      "positionIndex": 8,
+      "dialogue": 301,
+      "wordID": 30570,
+      "key": "x3SNoUC2Vvmm2MRPZD7aezHGNXQa9o1s",
+      "done": true,
+      "recorded": false,
+      "sols": [
+        {
+          "text": "نعم.",
+          "dictionary": [{ "raw": "نعم", "translations": [] }]
+        },
+        {
+          "text": "ہاں، میں یہاں رہتی ہوں۔",
+          "phonetic": "Haan, mein yahan rehti hoon.",
+          "dictionary": [
+            {
+              "raw": "ہاں",
+              "translations": [
+                { "type": "dictionary", "text": "نعم", "phonetic": null }
+              ]
+            },
+            { "raw": "میں", "translations": [] },
+            { "raw": "یہاں", "translations": [] },
+            { "raw": "رہتی", "translations": [] },
+            {
+              "raw": "ہوں",
+              "translations": [
+                { "type": "dictionary", "text": "نعم", "phonetic": null },
+                {
+                  "type": "verb",
+                  "name": {
+                    "t": "متّفق ہونا",
+                    "m": "يوافق",
+                    "phonetic": "muttafiq hona"
+                  },
+                  "id": 1,
+                  "tenseNames": {
+                    "pr": "الحاضر",
+                    "pa": "ماضي",
+                    "fu": "مستقبل"
+                  },
+                  "conj": {
+                    "pr": [
+                      {
+                        "t": {
+                          "key": "ILulDenvPwHSmrUhzuSBdXwvJ-QjKoyp",
+                          "text": "میں متّفق ہوتا ہوں",
+                          "phonetic": "Mein muttafiq hota hoon",
+                          "audio_updated_at": 1580692919
+                        },
+                        "m": { "text": "أنا أوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "tRwjOBCOhXT8RbfFan5KJLMBmu6fw-2b",
+                          "text": "تم متّفق ہوتے ہو",
+                          "phonetic": "Tum muttafiq hotay ho",
+                          "audio_updated_at": 1580692921
+                        },
+                        "m": { "text": "أنت توافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "v1Y_DdoUpq2lF8amygECA1hyoxaXV-gL",
+                          "text": "وہ متّفق ہوتا ہے",
+                          "phonetic": "Wo muttafiq hota hai",
+                          "audio_updated_at": 1580692923
+                        },
+                        "m": { "text": "هو يوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "hXk3UMfDAMi5Nq-Dwy0aSGqR7wUM36CA",
+                          "text": "وہ متّفق ہوتی ہے",
+                          "phonetic": "Wo muttafiq hoti hai",
+                          "audio_updated_at": 1580692925
+                        },
+                        "m": { "text": "هي توافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "Z-7SYfgQPo46ZkGsGcRL7FtMn4JjbMi3",
+                          "text": "ہم متّفق ہوتے ہیں",
+                          "phonetic": "Hum muttafiq hotay hain",
+                          "audio_updated_at": 1580692929
+                        },
+                        "m": { "text": "نحن نوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "YHPOGPQLWeWIL2wzkaadaCzDyOklpbtw",
+                          "text": "آپ متّفق ہوتے ہیں",
+                          "phonetic": "Aap muttafiq hotay hain",
+                          "audio_updated_at": 1580692931
+                        },
+                        "m": { "text": "أنتم توافقون" }
+                      },
+                      {
+                        "t": {
+                          "key": "XstYItwshUedYqu8yaE-eb1JS0dNY_3V",
+                          "text": "وہ متّفق ہوتے ہیں",
+                          "phonetic": "Wo muttafiq hotay hain",
+                          "audio_updated_at": 1580692932
+                        },
+                        "m": { "text": "هم يوافقون" }
+                      }
+                    ],
+                    "pa": [
+                      {
+                        "t": {
+                          "key": "JYIRRloDnLNan4PYnn6hjcvhMcet0WD1",
+                          "text": "میں متّفق ہوا",
+                          "phonetic": "Mein muttafiq hua",
+                          "audio_updated_at": 1580692934
+                        },
+                        "m": { "text": "أنا وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "b89-0T_2GdO9ZWYX6oHtePfHFvl7aGaB",
+                          "text": "تم متّفق ہوئے",
+                          "phonetic": "Tum muttafiq huay",
+                          "audio_updated_at": 1580692936
+                        },
+                        "m": { "text": "أنت وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "5Kesu04ngj6TrurmE3DoV24c2DgiRuPi",
+                          "text": "وہ متّفق ہوا",
+                          "phonetic": "Wo muttafiq hua",
+                          "audio_updated_at": 1580692938
+                        },
+                        "m": { "text": "هو وافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "bJnTTyXZzvvQnFBqzhVFtYdjePdGS8Nt",
+                          "text": "وہ متّفق ہوئی",
+                          "phonetic": "Wo muttafiq hui",
+                          "audio_updated_at": 1580692939
+                        },
+                        "m": { "text": "هي وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "6jbKTg-yy4CpgadT7AGIlL73edwHln5R",
+                          "text": "ہم متّفق ہوئے",
+                          "phonetic": "Hum muttafiq huay",
+                          "audio_updated_at": 1580692943
+                        },
+                        "m": { "text": "نحن وافقنا" }
+                      },
+                      {
+                        "t": {
+                          "key": "Q4O8uGGY0Yz1Runhm2z3jIrtwe4agkSW",
+                          "text": "آپ متّفق ہوئے",
+                          "phonetic": "Aap muttafiq huay",
+                          "audio_updated_at": 1580692945
+                        },
+                        "m": { "text": "أنتم وافقتم" }
+                      },
+                      {
+                        "t": {
+                          "key": "zDR_uqvyzA2xaP4vPmCaHNC6uvkXoLCN",
+                          "text": "وہ متّفق ہوئے",
+                          "phonetic": "Wo muttafiq huay",
+                          "audio_updated_at": 1580692946
+                        },
+                        "m": { "text": "هم وافقوا" }
+                      }
+                    ],
+                    "fu": [
+                      {
+                        "t": {
+                          "key": "j6UK9u9ekeOG_VU6w29oNUVI1n-td3qj",
+                          "text": "میں متّفق ہوں گا",
+                          "phonetic": "Mein muttafiq hoon ga",
+                          "audio_updated_at": 1580692948
+                        },
+                        "m": { "text": "أنا سأوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "oZFt-tLlXNmJnfcC-ZIxitkWJjZsR4DF",
+                          "text": "تم متّفق ہو گے",
+                          "phonetic": "Tum muttafiq ho gay",
+                          "audio_updated_at": 1580692950
+                        },
+                        "m": { "text": "أنت ستوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "f2yewJfPLzDgQBRrXgu_bSesRq5s3WZt",
+                          "text": "وہ متّفق ہوگا",
+                          "phonetic": "Wo muttafiq ho ga",
+                          "audio_updated_at": 1580692952
+                        },
+                        "m": { "text": "هو سيوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "POlQ-7Y26Fy6JIDgWRrGgyrosRQvgJf4",
+                          "text": "وہ متّفق ہو گی",
+                          "phonetic": "Wo muttafiq ho gi",
+                          "audio_updated_at": 1580692954
+                        },
+                        "m": { "text": "هي ستوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "2nh6PEhVjxPVdsWh42jrcdntSDcy7Stp",
+                          "text": "ہم متّفق ہوں گے",
+                          "phonetic": "Hum muttafiq hon gay",
+                          "audio_updated_at": 1580692958
+                        },
+                        "m": { "text": "نحن سنوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "_TThGfBkwBU1nh9vEXcVXqLAmJKoZ8AG",
+                          "text": "آپ متّفق ہوں گے",
+                          "phonetic": "Aap muttafiq hon gay",
+                          "audio_updated_at": 1580692960
+                        },
+                        "m": { "text": "أنتم ستوافقون" }
+                      },
+                      {
+                        "t": {
+                          "key": "Nl3attkofIOZbIBetJNNRmJIThUIiO3O",
+                          "text": "وہ متّفق ہوں گے",
+                          "phonetic": "Wo muttafiq hon gay",
+                          "audio_updated_at": 1580692962
+                        },
+                        "m": { "text": "هم سيوافقون" }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audio_updated_at": 1688826320
+    },
+    {
+      "id": 9345,
+      "i": 9,
+      "positionIndex": 9,
+      "dialogue": 301,
+      "wordID": 30571,
+      "key": "ibUlMTS--VMjl7RzvC430RDolJKVQjTO",
+      "done": true,
+      "recorded": false,
+      "sols": [
+        {
+          "text": "أنا أيضًا! ما اللغات التي تتحدثينها؟",
+          "dictionary": [
+            { "raw": "أنا", "translations": [] },
+            { "raw": "أيضًا", "translations": [] },
+            { "raw": "ما", "translations": [] },
+            { "raw": "اللغات", "translations": [] },
+            { "raw": "التي", "translations": [] },
+            { "raw": "تتحدثينها", "translations": [] }
+          ]
+        },
+        {
+          "text": "میں بھی! تم کون سی زبانیں بولتی ہو؟",
+          "phonetic": "Mein bhi! Tum kon si zubanein bolti ho?",
+          "dictionary": [
+            {
+              "raw": "میں",
+              "translations": [
+                { "type": "dictionary", "text": "أنا", "phonetic": null }
+              ]
+            },
+            {
+              "raw": "بھی",
+              "translations": [
+                { "type": "dictionary", "text": "أيضًا", "phonetic": null }
+              ]
+            },
+            { "raw": "تم", "translations": [] },
+            { "raw": "کون", "translations": [] },
+            { "raw": "سی", "translations": [] },
+            {
+              "raw": "زبانیں",
+              "translations": [
+                { "type": "dictionary", "text": "اللغات", "phonetic": null }
+              ]
+            },
+            { "raw": "بولتی", "translations": [] },
+            {
+              "raw": "ہو",
+              "translations": [
+                {
+                  "type": "verb",
+                  "name": {
+                    "t": "متّفق ہونا",
+                    "m": "يوافق",
+                    "phonetic": "muttafiq hona"
+                  },
+                  "id": 1,
+                  "tenseNames": {
+                    "pr": "الحاضر",
+                    "pa": "ماضي",
+                    "fu": "مستقبل"
+                  },
+                  "conj": {
+                    "pr": [
+                      {
+                        "t": {
+                          "key": "ILulDenvPwHSmrUhzuSBdXwvJ-QjKoyp",
+                          "text": "میں متّفق ہوتا ہوں",
+                          "phonetic": "Mein muttafiq hota hoon",
+                          "audio_updated_at": 1580692919
+                        },
+                        "m": { "text": "أنا أوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "tRwjOBCOhXT8RbfFan5KJLMBmu6fw-2b",
+                          "text": "تم متّفق ہوتے ہو",
+                          "phonetic": "Tum muttafiq hotay ho",
+                          "audio_updated_at": 1580692921
+                        },
+                        "m": { "text": "أنت توافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "v1Y_DdoUpq2lF8amygECA1hyoxaXV-gL",
+                          "text": "وہ متّفق ہوتا ہے",
+                          "phonetic": "Wo muttafiq hota hai",
+                          "audio_updated_at": 1580692923
+                        },
+                        "m": { "text": "هو يوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "hXk3UMfDAMi5Nq-Dwy0aSGqR7wUM36CA",
+                          "text": "وہ متّفق ہوتی ہے",
+                          "phonetic": "Wo muttafiq hoti hai",
+                          "audio_updated_at": 1580692925
+                        },
+                        "m": { "text": "هي توافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "Z-7SYfgQPo46ZkGsGcRL7FtMn4JjbMi3",
+                          "text": "ہم متّفق ہوتے ہیں",
+                          "phonetic": "Hum muttafiq hotay hain",
+                          "audio_updated_at": 1580692929
+                        },
+                        "m": { "text": "نحن نوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "YHPOGPQLWeWIL2wzkaadaCzDyOklpbtw",
+                          "text": "آپ متّفق ہوتے ہیں",
+                          "phonetic": "Aap muttafiq hotay hain",
+                          "audio_updated_at": 1580692931
+                        },
+                        "m": { "text": "أنتم توافقون" }
+                      },
+                      {
+                        "t": {
+                          "key": "XstYItwshUedYqu8yaE-eb1JS0dNY_3V",
+                          "text": "وہ متّفق ہوتے ہیں",
+                          "phonetic": "Wo muttafiq hotay hain",
+                          "audio_updated_at": 1580692932
+                        },
+                        "m": { "text": "هم يوافقون" }
+                      }
+                    ],
+                    "pa": [
+                      {
+                        "t": {
+                          "key": "JYIRRloDnLNan4PYnn6hjcvhMcet0WD1",
+                          "text": "میں متّفق ہوا",
+                          "phonetic": "Mein muttafiq hua",
+                          "audio_updated_at": 1580692934
+                        },
+                        "m": { "text": "أنا وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "b89-0T_2GdO9ZWYX6oHtePfHFvl7aGaB",
+                          "text": "تم متّفق ہوئے",
+                          "phonetic": "Tum muttafiq huay",
+                          "audio_updated_at": 1580692936
+                        },
+                        "m": { "text": "أنت وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "5Kesu04ngj6TrurmE3DoV24c2DgiRuPi",
+                          "text": "وہ متّفق ہوا",
+                          "phonetic": "Wo muttafiq hua",
+                          "audio_updated_at": 1580692938
+                        },
+                        "m": { "text": "هو وافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "bJnTTyXZzvvQnFBqzhVFtYdjePdGS8Nt",
+                          "text": "وہ متّفق ہوئی",
+                          "phonetic": "Wo muttafiq hui",
+                          "audio_updated_at": 1580692939
+                        },
+                        "m": { "text": "هي وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "6jbKTg-yy4CpgadT7AGIlL73edwHln5R",
+                          "text": "ہم متّفق ہوئے",
+                          "phonetic": "Hum muttafiq huay",
+                          "audio_updated_at": 1580692943
+                        },
+                        "m": { "text": "نحن وافقنا" }
+                      },
+                      {
+                        "t": {
+                          "key": "Q4O8uGGY0Yz1Runhm2z3jIrtwe4agkSW",
+                          "text": "آپ متّفق ہوئے",
+                          "phonetic": "Aap muttafiq huay",
+                          "audio_updated_at": 1580692945
+                        },
+                        "m": { "text": "أنتم وافقتم" }
+                      },
+                      {
+                        "t": {
+                          "key": "zDR_uqvyzA2xaP4vPmCaHNC6uvkXoLCN",
+                          "text": "وہ متّفق ہوئے",
+                          "phonetic": "Wo muttafiq huay",
+                          "audio_updated_at": 1580692946
+                        },
+                        "m": { "text": "هم وافقوا" }
+                      }
+                    ],
+                    "fu": [
+                      {
+                        "t": {
+                          "key": "j6UK9u9ekeOG_VU6w29oNUVI1n-td3qj",
+                          "text": "میں متّفق ہوں گا",
+                          "phonetic": "Mein muttafiq hoon ga",
+                          "audio_updated_at": 1580692948
+                        },
+                        "m": { "text": "أنا سأوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "oZFt-tLlXNmJnfcC-ZIxitkWJjZsR4DF",
+                          "text": "تم متّفق ہو گے",
+                          "phonetic": "Tum muttafiq ho gay",
+                          "audio_updated_at": 1580692950
+                        },
+                        "m": { "text": "أنت ستوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "f2yewJfPLzDgQBRrXgu_bSesRq5s3WZt",
+                          "text": "وہ متّفق ہوگا",
+                          "phonetic": "Wo muttafiq ho ga",
+                          "audio_updated_at": 1580692952
+                        },
+                        "m": { "text": "هو سيوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "POlQ-7Y26Fy6JIDgWRrGgyrosRQvgJf4",
+                          "text": "وہ متّفق ہو گی",
+                          "phonetic": "Wo muttafiq ho gi",
+                          "audio_updated_at": 1580692954
+                        },
+                        "m": { "text": "هي ستوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "2nh6PEhVjxPVdsWh42jrcdntSDcy7Stp",
+                          "text": "ہم متّفق ہوں گے",
+                          "phonetic": "Hum muttafiq hon gay",
+                          "audio_updated_at": 1580692958
+                        },
+                        "m": { "text": "نحن سنوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "_TThGfBkwBU1nh9vEXcVXqLAmJKoZ8AG",
+                          "text": "آپ متّفق ہوں گے",
+                          "phonetic": "Aap muttafiq hon gay",
+                          "audio_updated_at": 1580692960
+                        },
+                        "m": { "text": "أنتم ستوافقون" }
+                      },
+                      {
+                        "t": {
+                          "key": "Nl3attkofIOZbIBetJNNRmJIThUIiO3O",
+                          "text": "وہ متّفق ہوں گے",
+                          "phonetic": "Wo muttafiq hon gay",
+                          "audio_updated_at": 1580692962
+                        },
+                        "m": { "text": "هم سيوافقون" }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audio_updated_at": 1688826321
+    },
+    {
+      "id": 9346,
+      "i": 10,
+      "positionIndex": 10,
+      "dialogue": 301,
+      "wordID": 30572,
+      "key": "yFbUkmF61fnCnui_JYY41Ras-d85qpOk",
+      "done": true,
+      "recorded": false,
+      "sols": [
+        {
+          "text": "أتحدث الإسبانية والإنجليزية. وأنت؟",
+          "dictionary": [
+            { "raw": "أتحدث", "translations": [] },
+            { "raw": "الإسبانية", "translations": [] },
+            { "raw": "والإنجليزية", "translations": [] },
+            { "raw": "وأنت", "translations": [] }
+          ]
+        },
+        {
+          "text": "میں ہسپانوی اور انگریزی بولتی ہوں۔ اور تم؟",
+          "phonetic": "Mein haspanvi aur angrezi bolti hoon. Aur tum?",
+          "dictionary": [
+            { "raw": "میں", "translations": [] },
+            {
+              "raw": "ہسپانوی",
+              "translations": [
+                { "type": "dictionary", "text": "الإسبانية", "phonetic": null }
+              ]
+            },
+            { "raw": "اور", "translations": [] },
+            {
+              "raw": "انگریزی",
+              "translations": [
+                {
+                  "type": "dictionary",
+                  "text": "والإنجليزية",
+                  "phonetic": null
+                }
+              ]
+            },
+            {
+              "raw": "بولتی",
+              "translations": [
+                { "type": "dictionary", "text": "أتحدث", "phonetic": null }
+              ]
+            },
+            {
+              "raw": "ہوں",
+              "translations": [
+                {
+                  "type": "verb",
+                  "name": {
+                    "t": "متّفق ہونا",
+                    "m": "يوافق",
+                    "phonetic": "muttafiq hona"
+                  },
+                  "id": 1,
+                  "tenseNames": {
+                    "pr": "الحاضر",
+                    "pa": "ماضي",
+                    "fu": "مستقبل"
+                  },
+                  "conj": {
+                    "pr": [
+                      {
+                        "t": {
+                          "key": "ILulDenvPwHSmrUhzuSBdXwvJ-QjKoyp",
+                          "text": "میں متّفق ہوتا ہوں",
+                          "phonetic": "Mein muttafiq hota hoon",
+                          "audio_updated_at": 1580692919
+                        },
+                        "m": { "text": "أنا أوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "tRwjOBCOhXT8RbfFan5KJLMBmu6fw-2b",
+                          "text": "تم متّفق ہوتے ہو",
+                          "phonetic": "Tum muttafiq hotay ho",
+                          "audio_updated_at": 1580692921
+                        },
+                        "m": { "text": "أنت توافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "v1Y_DdoUpq2lF8amygECA1hyoxaXV-gL",
+                          "text": "وہ متّفق ہوتا ہے",
+                          "phonetic": "Wo muttafiq hota hai",
+                          "audio_updated_at": 1580692923
+                        },
+                        "m": { "text": "هو يوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "hXk3UMfDAMi5Nq-Dwy0aSGqR7wUM36CA",
+                          "text": "وہ متّفق ہوتی ہے",
+                          "phonetic": "Wo muttafiq hoti hai",
+                          "audio_updated_at": 1580692925
+                        },
+                        "m": { "text": "هي توافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "Z-7SYfgQPo46ZkGsGcRL7FtMn4JjbMi3",
+                          "text": "ہم متّفق ہوتے ہیں",
+                          "phonetic": "Hum muttafiq hotay hain",
+                          "audio_updated_at": 1580692929
+                        },
+                        "m": { "text": "نحن نوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "YHPOGPQLWeWIL2wzkaadaCzDyOklpbtw",
+                          "text": "آپ متّفق ہوتے ہیں",
+                          "phonetic": "Aap muttafiq hotay hain",
+                          "audio_updated_at": 1580692931
+                        },
+                        "m": { "text": "أنتم توافقون" }
+                      },
+                      {
+                        "t": {
+                          "key": "XstYItwshUedYqu8yaE-eb1JS0dNY_3V",
+                          "text": "وہ متّفق ہوتے ہیں",
+                          "phonetic": "Wo muttafiq hotay hain",
+                          "audio_updated_at": 1580692932
+                        },
+                        "m": { "text": "هم يوافقون" }
+                      }
+                    ],
+                    "pa": [
+                      {
+                        "t": {
+                          "key": "JYIRRloDnLNan4PYnn6hjcvhMcet0WD1",
+                          "text": "میں متّفق ہوا",
+                          "phonetic": "Mein muttafiq hua",
+                          "audio_updated_at": 1580692934
+                        },
+                        "m": { "text": "أنا وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "b89-0T_2GdO9ZWYX6oHtePfHFvl7aGaB",
+                          "text": "تم متّفق ہوئے",
+                          "phonetic": "Tum muttafiq huay",
+                          "audio_updated_at": 1580692936
+                        },
+                        "m": { "text": "أنت وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "5Kesu04ngj6TrurmE3DoV24c2DgiRuPi",
+                          "text": "وہ متّفق ہوا",
+                          "phonetic": "Wo muttafiq hua",
+                          "audio_updated_at": 1580692938
+                        },
+                        "m": { "text": "هو وافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "bJnTTyXZzvvQnFBqzhVFtYdjePdGS8Nt",
+                          "text": "وہ متّفق ہوئی",
+                          "phonetic": "Wo muttafiq hui",
+                          "audio_updated_at": 1580692939
+                        },
+                        "m": { "text": "هي وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "6jbKTg-yy4CpgadT7AGIlL73edwHln5R",
+                          "text": "ہم متّفق ہوئے",
+                          "phonetic": "Hum muttafiq huay",
+                          "audio_updated_at": 1580692943
+                        },
+                        "m": { "text": "نحن وافقنا" }
+                      },
+                      {
+                        "t": {
+                          "key": "Q4O8uGGY0Yz1Runhm2z3jIrtwe4agkSW",
+                          "text": "آپ متّفق ہوئے",
+                          "phonetic": "Aap muttafiq huay",
+                          "audio_updated_at": 1580692945
+                        },
+                        "m": { "text": "أنتم وافقتم" }
+                      },
+                      {
+                        "t": {
+                          "key": "zDR_uqvyzA2xaP4vPmCaHNC6uvkXoLCN",
+                          "text": "وہ متّفق ہوئے",
+                          "phonetic": "Wo muttafiq huay",
+                          "audio_updated_at": 1580692946
+                        },
+                        "m": { "text": "هم وافقوا" }
+                      }
+                    ],
+                    "fu": [
+                      {
+                        "t": {
+                          "key": "j6UK9u9ekeOG_VU6w29oNUVI1n-td3qj",
+                          "text": "میں متّفق ہوں گا",
+                          "phonetic": "Mein muttafiq hoon ga",
+                          "audio_updated_at": 1580692948
+                        },
+                        "m": { "text": "أنا سأوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "oZFt-tLlXNmJnfcC-ZIxitkWJjZsR4DF",
+                          "text": "تم متّفق ہو گے",
+                          "phonetic": "Tum muttafiq ho gay",
+                          "audio_updated_at": 1580692950
+                        },
+                        "m": { "text": "أنت ستوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "f2yewJfPLzDgQBRrXgu_bSesRq5s3WZt",
+                          "text": "وہ متّفق ہوگا",
+                          "phonetic": "Wo muttafiq ho ga",
+                          "audio_updated_at": 1580692952
+                        },
+                        "m": { "text": "هو سيوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "POlQ-7Y26Fy6JIDgWRrGgyrosRQvgJf4",
+                          "text": "وہ متّفق ہو گی",
+                          "phonetic": "Wo muttafiq ho gi",
+                          "audio_updated_at": 1580692954
+                        },
+                        "m": { "text": "هي ستوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "2nh6PEhVjxPVdsWh42jrcdntSDcy7Stp",
+                          "text": "ہم متّفق ہوں گے",
+                          "phonetic": "Hum muttafiq hon gay",
+                          "audio_updated_at": 1580692958
+                        },
+                        "m": { "text": "نحن سنوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "_TThGfBkwBU1nh9vEXcVXqLAmJKoZ8AG",
+                          "text": "آپ متّفق ہوں گے",
+                          "phonetic": "Aap muttafiq hon gay",
+                          "audio_updated_at": 1580692960
+                        },
+                        "m": { "text": "أنتم ستوافقون" }
+                      },
+                      {
+                        "t": {
+                          "key": "Nl3attkofIOZbIBetJNNRmJIThUIiO3O",
+                          "text": "وہ متّفق ہوں گے",
+                          "phonetic": "Wo muttafiq hon gay",
+                          "audio_updated_at": 1580692962
+                        },
+                        "m": { "text": "هم سيوافقون" }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            { "raw": "اور", "translations": [] },
+            {
+              "raw": "تم",
+              "translations": [
+                { "type": "dictionary", "text": "وأنت", "phonetic": null }
+              ]
+            }
+          ]
+        }
+      ],
+      "audio_updated_at": 1688826323
+    },
+    {
+      "id": 9347,
+      "i": 11,
+      "positionIndex": 11,
+      "dialogue": 301,
+      "wordID": 30573,
+      "key": "czR6_RAMDjCesl6aJusEYwaHPpGU6mrZ",
+      "done": true,
+      "recorded": false,
+      "sols": [
+        {
+          "text": "الفرنسية والإنجليزية!",
+          "dictionary": [
+            { "raw": "الفرنسية", "translations": [] },
+            { "raw": "والإنجليزية", "translations": [] }
+          ]
+        },
+        {
+          "text": "فرانسیسی اور انگریزی!",
+          "phonetic": "Franseesi aur angrezi!",
+          "dictionary": [
+            { "raw": "فرانسیسی", "translations": [] },
+            { "raw": "اور", "translations": [] },
+            {
+              "raw": "انگریزی",
+              "translations": [
+                {
+                  "type": "dictionary",
+                  "text": "والإنجليزية",
+                  "phonetic": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audio_updated_at": 1688826324
+    },
+    {
+      "id": 9348,
+      "i": 12,
+      "positionIndex": 12,
+      "dialogue": 301,
+      "wordID": 30574,
+      "key": "4gqwMx2xltMYnJJlcU5ZIN09dc_wDE6N",
+      "done": true,
+      "recorded": false,
+      "sols": [
+        {
+          "text": "جميل! أنا أفهم الفرنسية قليلًا.",
+          "dictionary": [
+            { "raw": "جميل", "translations": [] },
+            { "raw": "أنا", "translations": [] },
+            {
+              "raw": "أفهم",
+              "translations": [
+                {
+                  "type": "verb",
+                  "name": {
+                    "t": "سمجھنا",
+                    "m": "يفهم",
+                    "phonetic": "samajhna"
+                  },
+                  "id": 89,
+                  "tenseNames": {
+                    "pr": "الحاضر",
+                    "pa": "ماضي",
+                    "fu": "مستقبل"
+                  },
+                  "conj": {
+                    "pr": [
+                      {
+                        "t": {
+                          "key": "1qX1oJThwzfJfwp2JeRi73Tn8UNBIwhu",
+                          "text": "میں سمجھتا ہوں",
+                          "phonetic": "Mein samajhta hoon",
+                          "audio_updated_at": 1580696743
+                        },
+                        "m": { "text": "أنا أفهم" }
+                      },
+                      {
+                        "t": {
+                          "key": "Uh0XOcGk9967pxQtwSWWyIsRTPsDXMdc",
+                          "text": "تم سمجھتے ہو",
+                          "phonetic": "Tum samajhtay ho",
+                          "audio_updated_at": 1580696745
+                        },
+                        "m": { "text": "أنت تفهم" }
+                      },
+                      {
+                        "t": {
+                          "key": "m-QyqtbtyR2LyBPJKaVJMlGzgMxFM-sE",
+                          "text": "وہ سمجھتا ہے",
+                          "phonetic": "Wo samajhta hai",
+                          "audio_updated_at": 1580696747
+                        },
+                        "m": { "text": "هو يفهم" }
+                      },
+                      {
+                        "t": {
+                          "key": "DcBsv6jlkxDw7HMscty7OcetQKUk2A1m",
+                          "text": "وہ سمجھتی ہے",
+                          "phonetic": "Wo samajhti hai",
+                          "audio_updated_at": 1580696749
+                        },
+                        "m": { "text": "هي تفهم" }
+                      },
+                      {
+                        "t": {
+                          "key": "thSblGy4UeQ1NQ112GPXL2GsrcBBHexb",
+                          "text": "ہم سمجھتے ہیں",
+                          "phonetic": "Hum samajhtay hain",
+                          "audio_updated_at": 1580696752
+                        },
+                        "m": { "text": "نحن نفهم" }
+                      },
+                      {
+                        "t": {
+                          "key": "H8MG5AOHbOoLzk1E4fwc3nv_85qRhEP2",
+                          "text": "آپ سمجھتے ہیں",
+                          "phonetic": "Aap samajhtay hain",
+                          "audio_updated_at": 1580696754
+                        },
+                        "m": { "text": "أنتم تفهمون" }
+                      },
+                      {
+                        "t": {
+                          "key": "tUqGLyiI6BRIYRMz7cZILtXFnM4rUis3",
+                          "text": "وہ سمجھتے ہیں",
+                          "phonetic": "Wo samajhtay hain",
+                          "audio_updated_at": 1580696756
+                        },
+                        "m": { "text": "هم يفهمون" }
+                      }
+                    ],
+                    "pa": [
+                      {
+                        "t": {
+                          "key": "8dv5FZWe9OeH9uF0C3co9Sp1BjwIa_Ay",
+                          "text": "میں سمجھ گیا",
+                          "phonetic": "Mein samajh gaya",
+                          "audio_updated_at": 1580696758
+                        },
+                        "m": { "text": "أنا فهمت" }
+                      },
+                      {
+                        "t": {
+                          "key": "bwKQpu74KGeGvGOeoJT6ATyVWF1VJCmM",
+                          "text": "تم سمجھ گئے",
+                          "phonetic": "Tum samajh gaey",
+                          "audio_updated_at": 1580696760
+                        },
+                        "m": { "text": "أنت فهمت" }
+                      },
+                      {
+                        "t": {
+                          "key": "5bBbFtIK9HhaeOM9VMTUFxpCp6Bprye2",
+                          "text": "وہ سمجھ گیا",
+                          "phonetic": "Wo samajh gaya",
+                          "audio_updated_at": 1580696762
+                        },
+                        "m": { "text": "هو فهم" }
+                      },
+                      {
+                        "t": {
+                          "key": "iT_4u1RwogHXxYaVuxX2yW7jbvU6njEM",
+                          "text": "وہ سمجھ گئی",
+                          "phonetic": "Wo samajh gai",
+                          "audio_updated_at": 1580696764
+                        },
+                        "m": { "text": "هي فهمت" }
+                      },
+                      {
+                        "t": {
+                          "key": "x1ljf9RLD24TAAPtpv8X-nJIDGQO9Sb5",
+                          "text": "ہم سمجھ گئے",
+                          "phonetic": "Hum samajh gaey",
+                          "audio_updated_at": 1580696767
+                        },
+                        "m": { "text": "نحن فهمنا" }
+                      },
+                      {
+                        "t": {
+                          "key": "hw1HNpkjoyEXC6HrBwR0EHtGoMM-ByjP",
+                          "text": "آپ سمجھ گئے",
+                          "phonetic": "Aap samajh gaey",
+                          "audio_updated_at": 1580696769
+                        },
+                        "m": { "text": "أنتم فهمتم" }
+                      },
+                      {
+                        "t": {
+                          "key": "wac0bG__CMfZ2zLFg5qFswKzGMGWkGea",
+                          "text": "وہ سمجھ گئے",
+                          "phonetic": "Wo samajh gaey",
+                          "audio_updated_at": 1580696771
+                        },
+                        "m": { "text": "هم فهموا" }
+                      }
+                    ],
+                    "fu": [
+                      {
+                        "t": {
+                          "key": "3NLxnY629cXtqFG5zs-WyXVFZiSpOas_",
+                          "text": "میں سمجھوں گا",
+                          "phonetic": "Mein samjhoon ga",
+                          "audio_updated_at": 1580696773
+                        },
+                        "m": { "text": "أنا سأفهم" }
+                      },
+                      {
+                        "t": {
+                          "key": "LHjIS9mVmtuxCurviM_K-ImRi6TobFEB",
+                          "text": "تم سمجھو گے",
+                          "phonetic": "Tum samjho gay",
+                          "audio_updated_at": 1580696774
+                        },
+                        "m": { "text": "أنت ستفهم" }
+                      },
+                      {
+                        "t": {
+                          "key": "lOSyvyNIaI0q5wTWqKMXrfuXv1BRWMM7",
+                          "text": "وہ سمجھے گا",
+                          "phonetic": "Wo samjhay ga",
+                          "audio_updated_at": 1580696776
+                        },
+                        "m": { "text": "هو سيفهم" }
+                      },
+                      {
+                        "t": {
+                          "key": "fBtA_-JCbtsv-NcwSICudvG_TcH9wRBc",
+                          "text": "وہ سمجھے گی",
+                          "phonetic": "Wo samjhay gi",
+                          "audio_updated_at": 1580696778
+                        },
+                        "m": { "text": "هي ستفهم" }
+                      },
+                      {
+                        "t": {
+                          "key": "6-xmxcSiVii8kFNKPjqKSgo5dzILdyrW",
+                          "text": "ہم سمجھیں گے",
+                          "phonetic": "Hum samjhain gay",
+                          "audio_updated_at": 1580696782
+                        },
+                        "m": { "text": "نحن سنفهم" }
+                      },
+                      {
+                        "t": {
+                          "key": "4_qx3--43E9xOAFFa-5ZEDyie2M6vJ4C",
+                          "text": "آپ سمجھیں گے",
+                          "phonetic": "Aap samjhain gay",
+                          "audio_updated_at": 1580696783
+                        },
+                        "m": { "text": "أنتم ستفهمون" }
+                      },
+                      {
+                        "t": {
+                          "key": "BMp1y9lsTux1yIqucqI9FQNqVAaThDMh",
+                          "text": "وہ سمجھیں گے",
+                          "phonetic": "Wo samjhain gay",
+                          "audio_updated_at": 1580696785
+                        },
+                        "m": { "text": "هم سيفهمون" }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            { "raw": "الفرنسية", "translations": [] },
+            { "raw": "قليلًا", "translations": [] }
+          ]
+        },
+        {
+          "text": "اچھا! میں فرانسیسی تھوڑی تھوڑی سمجھتی ہوں۔",
+          "phonetic": "Acha! Mein franseesi thori thori samajhti hoon.",
+          "dictionary": [
+            { "raw": "اچھا", "translations": [] },
+            {
+              "raw": "میں",
+              "translations": [
+                { "type": "dictionary", "text": "أنا", "phonetic": null }
+              ]
+            },
+            { "raw": "فرانسیسی", "translations": [] },
+            {
+              "raw": "تھوڑی",
+              "translations": [
+                { "type": "dictionary", "text": "قليلًا", "phonetic": null }
+              ]
+            },
+            {
+              "raw": "تھوڑی",
+              "translations": [
+                { "type": "dictionary", "text": "قليلًا", "phonetic": null }
+              ]
+            },
+            { "raw": "سمجھتی", "translations": [] },
+            {
+              "raw": "ہوں",
+              "translations": [
+                {
+                  "type": "verb",
+                  "name": {
+                    "t": "متّفق ہونا",
+                    "m": "يوافق",
+                    "phonetic": "muttafiq hona"
+                  },
+                  "id": 1,
+                  "tenseNames": {
+                    "pr": "الحاضر",
+                    "pa": "ماضي",
+                    "fu": "مستقبل"
+                  },
+                  "conj": {
+                    "pr": [
+                      {
+                        "t": {
+                          "key": "ILulDenvPwHSmrUhzuSBdXwvJ-QjKoyp",
+                          "text": "میں متّفق ہوتا ہوں",
+                          "phonetic": "Mein muttafiq hota hoon",
+                          "audio_updated_at": 1580692919
+                        },
+                        "m": { "text": "أنا أوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "tRwjOBCOhXT8RbfFan5KJLMBmu6fw-2b",
+                          "text": "تم متّفق ہوتے ہو",
+                          "phonetic": "Tum muttafiq hotay ho",
+                          "audio_updated_at": 1580692921
+                        },
+                        "m": { "text": "أنت توافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "v1Y_DdoUpq2lF8amygECA1hyoxaXV-gL",
+                          "text": "وہ متّفق ہوتا ہے",
+                          "phonetic": "Wo muttafiq hota hai",
+                          "audio_updated_at": 1580692923
+                        },
+                        "m": { "text": "هو يوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "hXk3UMfDAMi5Nq-Dwy0aSGqR7wUM36CA",
+                          "text": "وہ متّفق ہوتی ہے",
+                          "phonetic": "Wo muttafiq hoti hai",
+                          "audio_updated_at": 1580692925
+                        },
+                        "m": { "text": "هي توافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "Z-7SYfgQPo46ZkGsGcRL7FtMn4JjbMi3",
+                          "text": "ہم متّفق ہوتے ہیں",
+                          "phonetic": "Hum muttafiq hotay hain",
+                          "audio_updated_at": 1580692929
+                        },
+                        "m": { "text": "نحن نوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "YHPOGPQLWeWIL2wzkaadaCzDyOklpbtw",
+                          "text": "آپ متّفق ہوتے ہیں",
+                          "phonetic": "Aap muttafiq hotay hain",
+                          "audio_updated_at": 1580692931
+                        },
+                        "m": { "text": "أنتم توافقون" }
+                      },
+                      {
+                        "t": {
+                          "key": "XstYItwshUedYqu8yaE-eb1JS0dNY_3V",
+                          "text": "وہ متّفق ہوتے ہیں",
+                          "phonetic": "Wo muttafiq hotay hain",
+                          "audio_updated_at": 1580692932
+                        },
+                        "m": { "text": "هم يوافقون" }
+                      }
+                    ],
+                    "pa": [
+                      {
+                        "t": {
+                          "key": "JYIRRloDnLNan4PYnn6hjcvhMcet0WD1",
+                          "text": "میں متّفق ہوا",
+                          "phonetic": "Mein muttafiq hua",
+                          "audio_updated_at": 1580692934
+                        },
+                        "m": { "text": "أنا وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "b89-0T_2GdO9ZWYX6oHtePfHFvl7aGaB",
+                          "text": "تم متّفق ہوئے",
+                          "phonetic": "Tum muttafiq huay",
+                          "audio_updated_at": 1580692936
+                        },
+                        "m": { "text": "أنت وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "5Kesu04ngj6TrurmE3DoV24c2DgiRuPi",
+                          "text": "وہ متّفق ہوا",
+                          "phonetic": "Wo muttafiq hua",
+                          "audio_updated_at": 1580692938
+                        },
+                        "m": { "text": "هو وافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "bJnTTyXZzvvQnFBqzhVFtYdjePdGS8Nt",
+                          "text": "وہ متّفق ہوئی",
+                          "phonetic": "Wo muttafiq hui",
+                          "audio_updated_at": 1580692939
+                        },
+                        "m": { "text": "هي وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "6jbKTg-yy4CpgadT7AGIlL73edwHln5R",
+                          "text": "ہم متّفق ہوئے",
+                          "phonetic": "Hum muttafiq huay",
+                          "audio_updated_at": 1580692943
+                        },
+                        "m": { "text": "نحن وافقنا" }
+                      },
+                      {
+                        "t": {
+                          "key": "Q4O8uGGY0Yz1Runhm2z3jIrtwe4agkSW",
+                          "text": "آپ متّفق ہوئے",
+                          "phonetic": "Aap muttafiq huay",
+                          "audio_updated_at": 1580692945
+                        },
+                        "m": { "text": "أنتم وافقتم" }
+                      },
+                      {
+                        "t": {
+                          "key": "zDR_uqvyzA2xaP4vPmCaHNC6uvkXoLCN",
+                          "text": "وہ متّفق ہوئے",
+                          "phonetic": "Wo muttafiq huay",
+                          "audio_updated_at": 1580692946
+                        },
+                        "m": { "text": "هم وافقوا" }
+                      }
+                    ],
+                    "fu": [
+                      {
+                        "t": {
+                          "key": "j6UK9u9ekeOG_VU6w29oNUVI1n-td3qj",
+                          "text": "میں متّفق ہوں گا",
+                          "phonetic": "Mein muttafiq hoon ga",
+                          "audio_updated_at": 1580692948
+                        },
+                        "m": { "text": "أنا سأوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "oZFt-tLlXNmJnfcC-ZIxitkWJjZsR4DF",
+                          "text": "تم متّفق ہو گے",
+                          "phonetic": "Tum muttafiq ho gay",
+                          "audio_updated_at": 1580692950
+                        },
+                        "m": { "text": "أنت ستوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "f2yewJfPLzDgQBRrXgu_bSesRq5s3WZt",
+                          "text": "وہ متّفق ہوگا",
+                          "phonetic": "Wo muttafiq ho ga",
+                          "audio_updated_at": 1580692952
+                        },
+                        "m": { "text": "هو سيوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "POlQ-7Y26Fy6JIDgWRrGgyrosRQvgJf4",
+                          "text": "وہ متّفق ہو گی",
+                          "phonetic": "Wo muttafiq ho gi",
+                          "audio_updated_at": 1580692954
+                        },
+                        "m": { "text": "هي ستوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "2nh6PEhVjxPVdsWh42jrcdntSDcy7Stp",
+                          "text": "ہم متّفق ہوں گے",
+                          "phonetic": "Hum muttafiq hon gay",
+                          "audio_updated_at": 1580692958
+                        },
+                        "m": { "text": "نحن سنوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "_TThGfBkwBU1nh9vEXcVXqLAmJKoZ8AG",
+                          "text": "آپ متّفق ہوں گے",
+                          "phonetic": "Aap muttafiq hon gay",
+                          "audio_updated_at": 1580692960
+                        },
+                        "m": { "text": "أنتم ستوافقون" }
+                      },
+                      {
+                        "t": {
+                          "key": "Nl3attkofIOZbIBetJNNRmJIThUIiO3O",
+                          "text": "وہ متّفق ہوں گے",
+                          "phonetic": "Wo muttafiq hon gay",
+                          "audio_updated_at": 1580692962
+                        },
+                        "m": { "text": "هم سيوافقون" }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audio_updated_at": 1688826325
+    },
+    {
+      "id": 9349,
+      "i": 13,
+      "positionIndex": 13,
+      "dialogue": 301,
+      "wordID": 30575,
+      "key": "yCPlLJOI3NXRKUb_Eivcz3WlGlrl9xrA",
+      "done": true,
+      "recorded": false,
+      "sols": [
+        {
+          "text": "هذا مثير للإعجاب!",
+          "dictionary": [
+            { "raw": "هذا", "translations": [] },
+            { "raw": "مثير", "translations": [] },
+            { "raw": "للإعجاب", "translations": [] }
+          ]
+        },
+        {
+          "text": "یہ متاثر کن ہے!",
+          "phonetic": "Yeh mutasir kun hai!",
+          "dictionary": [
+            {
+              "raw": "یہ",
+              "translations": [
+                { "type": "dictionary", "text": "هذا", "phonetic": null }
+              ]
+            },
+            { "raw": "متاثر", "translations": [] },
+            { "raw": "کن", "translations": [] },
+            {
+              "raw": "ہے",
+              "translations": [
+                {
+                  "type": "verb",
+                  "name": {
+                    "t": "متّفق ہونا",
+                    "m": "يوافق",
+                    "phonetic": "muttafiq hona"
+                  },
+                  "id": 1,
+                  "tenseNames": {
+                    "pr": "الحاضر",
+                    "pa": "ماضي",
+                    "fu": "مستقبل"
+                  },
+                  "conj": {
+                    "pr": [
+                      {
+                        "t": {
+                          "key": "ILulDenvPwHSmrUhzuSBdXwvJ-QjKoyp",
+                          "text": "میں متّفق ہوتا ہوں",
+                          "phonetic": "Mein muttafiq hota hoon",
+                          "audio_updated_at": 1580692919
+                        },
+                        "m": { "text": "أنا أوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "tRwjOBCOhXT8RbfFan5KJLMBmu6fw-2b",
+                          "text": "تم متّفق ہوتے ہو",
+                          "phonetic": "Tum muttafiq hotay ho",
+                          "audio_updated_at": 1580692921
+                        },
+                        "m": { "text": "أنت توافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "v1Y_DdoUpq2lF8amygECA1hyoxaXV-gL",
+                          "text": "وہ متّفق ہوتا ہے",
+                          "phonetic": "Wo muttafiq hota hai",
+                          "audio_updated_at": 1580692923
+                        },
+                        "m": { "text": "هو يوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "hXk3UMfDAMi5Nq-Dwy0aSGqR7wUM36CA",
+                          "text": "وہ متّفق ہوتی ہے",
+                          "phonetic": "Wo muttafiq hoti hai",
+                          "audio_updated_at": 1580692925
+                        },
+                        "m": { "text": "هي توافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "Z-7SYfgQPo46ZkGsGcRL7FtMn4JjbMi3",
+                          "text": "ہم متّفق ہوتے ہیں",
+                          "phonetic": "Hum muttafiq hotay hain",
+                          "audio_updated_at": 1580692929
+                        },
+                        "m": { "text": "نحن نوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "YHPOGPQLWeWIL2wzkaadaCzDyOklpbtw",
+                          "text": "آپ متّفق ہوتے ہیں",
+                          "phonetic": "Aap muttafiq hotay hain",
+                          "audio_updated_at": 1580692931
+                        },
+                        "m": { "text": "أنتم توافقون" }
+                      },
+                      {
+                        "t": {
+                          "key": "XstYItwshUedYqu8yaE-eb1JS0dNY_3V",
+                          "text": "وہ متّفق ہوتے ہیں",
+                          "phonetic": "Wo muttafiq hotay hain",
+                          "audio_updated_at": 1580692932
+                        },
+                        "m": { "text": "هم يوافقون" }
+                      }
+                    ],
+                    "pa": [
+                      {
+                        "t": {
+                          "key": "JYIRRloDnLNan4PYnn6hjcvhMcet0WD1",
+                          "text": "میں متّفق ہوا",
+                          "phonetic": "Mein muttafiq hua",
+                          "audio_updated_at": 1580692934
+                        },
+                        "m": { "text": "أنا وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "b89-0T_2GdO9ZWYX6oHtePfHFvl7aGaB",
+                          "text": "تم متّفق ہوئے",
+                          "phonetic": "Tum muttafiq huay",
+                          "audio_updated_at": 1580692936
+                        },
+                        "m": { "text": "أنت وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "5Kesu04ngj6TrurmE3DoV24c2DgiRuPi",
+                          "text": "وہ متّفق ہوا",
+                          "phonetic": "Wo muttafiq hua",
+                          "audio_updated_at": 1580692938
+                        },
+                        "m": { "text": "هو وافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "bJnTTyXZzvvQnFBqzhVFtYdjePdGS8Nt",
+                          "text": "وہ متّفق ہوئی",
+                          "phonetic": "Wo muttafiq hui",
+                          "audio_updated_at": 1580692939
+                        },
+                        "m": { "text": "هي وافقت" }
+                      },
+                      {
+                        "t": {
+                          "key": "6jbKTg-yy4CpgadT7AGIlL73edwHln5R",
+                          "text": "ہم متّفق ہوئے",
+                          "phonetic": "Hum muttafiq huay",
+                          "audio_updated_at": 1580692943
+                        },
+                        "m": { "text": "نحن وافقنا" }
+                      },
+                      {
+                        "t": {
+                          "key": "Q4O8uGGY0Yz1Runhm2z3jIrtwe4agkSW",
+                          "text": "آپ متّفق ہوئے",
+                          "phonetic": "Aap muttafiq huay",
+                          "audio_updated_at": 1580692945
+                        },
+                        "m": { "text": "أنتم وافقتم" }
+                      },
+                      {
+                        "t": {
+                          "key": "zDR_uqvyzA2xaP4vPmCaHNC6uvkXoLCN",
+                          "text": "وہ متّفق ہوئے",
+                          "phonetic": "Wo muttafiq huay",
+                          "audio_updated_at": 1580692946
+                        },
+                        "m": { "text": "هم وافقوا" }
+                      }
+                    ],
+                    "fu": [
+                      {
+                        "t": {
+                          "key": "j6UK9u9ekeOG_VU6w29oNUVI1n-td3qj",
+                          "text": "میں متّفق ہوں گا",
+                          "phonetic": "Mein muttafiq hoon ga",
+                          "audio_updated_at": 1580692948
+                        },
+                        "m": { "text": "أنا سأوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "oZFt-tLlXNmJnfcC-ZIxitkWJjZsR4DF",
+                          "text": "تم متّفق ہو گے",
+                          "phonetic": "Tum muttafiq ho gay",
+                          "audio_updated_at": 1580692950
+                        },
+                        "m": { "text": "أنت ستوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "f2yewJfPLzDgQBRrXgu_bSesRq5s3WZt",
+                          "text": "وہ متّفق ہوگا",
+                          "phonetic": "Wo muttafiq ho ga",
+                          "audio_updated_at": 1580692952
+                        },
+                        "m": { "text": "هو سيوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "POlQ-7Y26Fy6JIDgWRrGgyrosRQvgJf4",
+                          "text": "وہ متّفق ہو گی",
+                          "phonetic": "Wo muttafiq ho gi",
+                          "audio_updated_at": 1580692954
+                        },
+                        "m": { "text": "هي ستوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "2nh6PEhVjxPVdsWh42jrcdntSDcy7Stp",
+                          "text": "ہم متّفق ہوں گے",
+                          "phonetic": "Hum muttafiq hon gay",
+                          "audio_updated_at": 1580692958
+                        },
+                        "m": { "text": "نحن سنوافق" }
+                      },
+                      {
+                        "t": {
+                          "key": "_TThGfBkwBU1nh9vEXcVXqLAmJKoZ8AG",
+                          "text": "آپ متّفق ہوں گے",
+                          "phonetic": "Aap muttafiq hon gay",
+                          "audio_updated_at": 1580692960
+                        },
+                        "m": { "text": "أنتم ستوافقون" }
+                      },
+                      {
+                        "t": {
+                          "key": "Nl3attkofIOZbIBetJNNRmJIThUIiO3O",
+                          "text": "وہ متّفق ہوں گے",
+                          "phonetic": "Wo muttafiq hon gay",
+                          "audio_updated_at": 1580692962
+                        },
+                        "m": { "text": "هم سيوافقون" }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "audio_updated_at": 1688826326
+    },
+    {
+      "id": 9350,
+      "i": 14,
+      "positionIndex": 14,
+      "dialogue": 301,
+      "wordID": 30576,
+      "key": "FycaOGRfteCQMn1LNBJWjGAzcGiLSAKf",
+      "done": true,
+      "recorded": false,
+      "sols": [
+        {
+          "text": "شكرًا لك!",
+          "dictionary": [
+            { "raw": "شكرًا", "translations": [] },
+            { "raw": "لك", "translations": [] }
+          ]
+        },
+        {
+          "text": "تمہارا شکریہ!",
+          "phonetic": "Tumhara shukriya!",
+          "dictionary": [
+            {
+              "raw": "تمہارا",
+              "translations": [
+                { "type": "dictionary", "text": "لك", "phonetic": null }
+              ]
+            },
+            {
+              "raw": "شکریہ",
+              "translations": [
+                { "type": "dictionary", "text": "شكرًا", "phonetic": null }
+              ]
+            }
+          ]
+        }
+      ],
+      "audio_updated_at": 1688826327
+    }
+  ]
+}
