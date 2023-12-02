@@ -1,5 +1,5 @@
 .collapsible {
- background-color: #568BB3;
+ background-color: #568bb3;
  color: white;
  cursor: pointer;
  padding: 18px;
@@ -33,25 +33,25 @@
 }
 
 /* urdu_pronouns.html styles */
-#urdu-pronouns{
- font-size: minmax(1vw,1.5vw);
+#urdu-pronouns {
+ font-size: minmax(1vw, 1.5vw);
 }
 th {
-  background-color: #568bb3;
-  color: whitesmoke;
+ background-color: #568bb3;
+ color: whitesmoke;
 }
-.h-cell{
+.h-cell {
  background-color: teal;
- color:white;
+ color: white;
 }
 td {
  border: 1px solid silver;
  direction: rtl;
 }
-.empty{
- border:none;
+.empty {
+ border: none;
  background-color: white;
 }
-em{
- color:brown;
+em {
+ color: brown;
 }

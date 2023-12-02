@@ -1,11 +1,10 @@
-var page=document.querySelector('div.page');
-onload=function(){
- page.innerHTML+=main_and_mujhe;
- page.innerHTML+='<hr>';
- page.innerHTML+=urdu_pronouns;
+var page = document.querySelector("div.page");
+onload = function() {
+ page.innerHTML += main_and_mujhe;
+ page.innerHTML += "<hr>";
+ page.innerHTML += urdu_pronouns;
  collapse();
-
-}
+};
 
 function collapse() {
  var coll = document.getElementsByClassName("collapsible");

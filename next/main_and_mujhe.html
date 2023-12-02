@@ -1,61 +1,74 @@
 <style>
  .collapsible {
-   background-color: #568BB3;
-   color: white;
-   cursor: pointer;
-   padding: 18px;
-   width: 100%;
-   border: none;
-   text-align: left;
-   outline: none;
-   font-size: 15px;
+  background-color: #568bb3;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
  }
 
  .active,
  .collapsible:hover {
-   background-color: teal;
+  background-color: teal;
  }
- 
+
  .content {
-   padding: 0 18px;
-   display: none;
-   overflow: hidden;
-   background-color: #f1f1f1;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
  }
 
  .box {
-   color: green;
-   border-left: 6px solid teal;
-   padding-left: 1rem;
+  color: green;
+  border-left: 6px solid teal;
+  padding-left: 1rem;
  }
 
  .ur {
-   color: brown;
+  color: brown;
  }
 </style>
-  <button type=button class="collapsible">What is the difference between <em class="ur">مجھے</em> and <em class="ur">میں</em> in Hindi?
-  </button>
-  <div class="content">
-   <p class="box">
-    <em class=ur>میں</em> is subject case only, <em class=ur>مجھے</em> is for object cases, and it comes in three versions for different levels of language (style):
-    <em class=ur>مجھے</em> (literary and educated), <em class=ur>مجھ کو</em> (everyday usage), and <em class=ur>میرے کو</em> (substandard, but also widely used)
-   </p>
-   <p class="box"> <em class=ur>مجھے</em> and <em class=ur>میں</em> both refer to the self, but they are used in different contexts. <em class=ur>مجھے</em> is used to express that something is happening to or for the speaker, while <em class=ur>میں</em> is used to refer to the speaker as the subject of a sentence. For example, <em class=ur>مجھے khana pasand hai</em> means I like food, while <em class=ur>میں khana kha raha hoon</em> means I am eating food.</p>
-  </div>
+<button type="button" class="collapsible">
+ What is the difference between <em class="ur">مجھے</em> and
+ <em class="ur">میں</em> in Hindi?
+</button>
+<div class="content">
+ <p class="box">
+  <em class="ur">میں</em> is subject case only, <em class="ur">مجھے</em> is for
+  object cases, and it comes in three versions for different levels of language
+  (style): <em class="ur">مجھے</em> (literary and educated),
+  <em class="ur">مجھ کو</em> (everyday usage), and
+  <em class="ur">میرے کو</em> (substandard, but also widely used)
+ </p>
+ <p class="box">
+  <em class="ur">مجھے</em> and <em class="ur">میں</em> both refer to the self,
+  but they are used in different contexts. <em class="ur">مجھے</em> is used to
+  express that something is happening to or for the speaker, while
+  <em class="ur">میں</em> is used to refer to the speaker as the subject of a
+  sentence. For example, <em class="ur">مجھے khana pasand hai</em> means I like
+  food, while <em class="ur">میں khana kha raha hoon</em> means I am eating
+  food.
+ </p>
+</div>
 
-  <script>
-   var coll = document.getElementsByClassName("collapsible");
-   var i;
- 
-   for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function () {
-     this.classList.toggle("active");
-     var content = this.nextElementSibling;
-     if (content.style.display === "block") {
-      content.style.display = "none";
-     } else {
-      content.style.display = "block";
-     }
-    });
+<script>
+ var coll = document.getElementsByClassName("collapsible");
+ var i;
+
+ for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function () {
+   this.classList.toggle("active");
+   var content = this.nextElementSibling;
+   if (content.style.display === "block") {
+    content.style.display = "none";
+   } else {
+    content.style.display = "block";
    }
-  </script>
+  });
+ }
+</script>

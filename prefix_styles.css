@@ -1,4 +1,4 @@
-@import url('tab.css');
+@import url("tab.css");
 
 * {
  box-sizing: border-box;
@@ -16,11 +16,10 @@ body {
  flex-direction: column;
  justify-content: center;
  align-content: center;
-
 }
 
-
-.content-wrapper {}
+.content-wrapper {
+}
 
 /* ----------------------- cards ------------------------------*/
 .card {
@@ -66,15 +65,14 @@ img {
  justify-content: space-between;
 }
 
-
 /* dynamic tags  */
 .review-wrapper {
  width: 100%;
  background-color: #445069;
  border: 1px solid silver;
 }
-table{
- width:100%;
+table {
+ width: 100%;
 }
 table thead {
  background-color: teal;
@@ -103,12 +101,11 @@ tbody .mother {
  color: green;
 }
 
-
 .image,
 .image-head {
 }
 
-.image>img {
+.image > img {
  width: 70px;
  height: 70px;
 }
@@ -127,13 +124,12 @@ tbody .mother {
  border: 1px solid green;
  row-gap: 0.5rem;
 }
-.row > .cell{
+.row > .cell {
  text-align: center;
- flex:1; 
+ flex: 1;
 }
- div.cell{
-  text-align: right;
- 
+div.cell {
+ text-align: right;
 }
 
 .row:hover {
@@ -142,8 +138,8 @@ tbody .mother {
  color: yellow;
 }
 /* remove all audio control tag styles */
-audio{
- all:unset;
+audio {
+ all: unset;
 }
 button.home {
  width: 25%;
@@ -154,42 +150,38 @@ button.home {
  display: none;
 }
 
-.fa{
- padding:3px 15px;
+.fa {
+ padding: 3px 15px;
  background-color: whitesmoke;
  font-size: large;
 }
-td.audio,.cell.audio{
+td.audio,
+.cell.audio {
  cursor: pointer;
 }
-
 
 /* media queries */
 @media screen and (width < 700px) {
  .cards {
   grid-template-columns: 1fr 1fr 1fr 1fr;
  }
-.nav-header .tab{
- display: flex;
- flex-wrap: wrap;
- flex-direction: row-reverse;
- row-gap: 0.2rem;
- column-gap: 0.2rem;
-}
-.tab .tablinks{
- border:1px solid white;
- flex:1;
-}
-
-
+ .nav-header .tab {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  row-gap: 0.2rem;
+  column-gap: 0.2rem;
+ }
+ .tab .tablinks {
+  border: 1px solid white;
+  flex: 1;
+ }
 }
 
 @media screen and (width <=600px) {
  .cards {
   grid-template-columns: 1fr 1fr 1fr;
  }
-
-
 }
 
 @media screen and (width <=450px) {

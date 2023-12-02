@@ -1,7 +1,6 @@
 // data.js => only variables
 
-
-var main_and_mujhe=`
+var main_and_mujhe = `
 <button type=button class="collapsible">What is the difference between <em class="ur">مجھے</em> and <em class="ur">میں</em> in Hindi?
 </button>
 <div class="content">
@@ -14,7 +13,7 @@ var main_and_mujhe=`
 
 `;
 
-var urdu_pronouns=`
+var urdu_pronouns = `
 <button type="button" class="collapsible">
   Urdu/Pronouns
 </button>
