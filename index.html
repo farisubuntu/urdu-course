@@ -12,8 +12,11 @@
  </head>
 
  <body>
-  <button class="home" onclick="toHomePage();">
+  <button type="button" class="home" onclick="toHomePage();">
    <i class="fa-solid fa-house"></i> HOME
+  </button>
+  <button type="button" class="home" onclick="toNextHome();">
+   <i class="fa-solid fa-book"></i> Book Notes
   </button>
   <!-- https://raw.githubusercontent.com/farisubuntu/mondly/master/sections/1201.json -->
   <header class="nav-header"></header>
@@ -31,6 +34,9 @@
    function toHomePage() {
     console.log("toHomePage() .....");
     window.location = location.href;
+   }
+   function toNextHome(){
+    window.location.href='./next/main.html';
    }
   </script>
  </body>
