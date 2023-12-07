@@ -1,0 +1,7 @@
+id,i,index,positionIndex,unitNumber,unitType,unitStyle,unitScope,category,categoryID,name,disabled,done,stars,countDone
+201,1,1,1,,0,0,0,2,2,الوالدان والأطفال,false,true,3,6
+202,2,2,2,,0,0,0,2,2,الأسرة والحيوانات الأليفة,false,true,3,4
+203,3,3,3,,0,0,0,2,2,الأجداد,false,true,2,4
+204,4,4,4,,0,0,0,2,2,الأسرة والأصدقاء,false,true,3,2
+205,5,5,5,,0,0,0,2,2,الأقارب,false,true,3,3
+206,6,6,6,,0,0,0,2,2,أسرتي,false,true,3,2
