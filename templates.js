@@ -71,7 +71,7 @@ function get_word_template_table() {
           type='audio/mp3'>Your browser not supported</audio></td>
         <td class="image"><img src='${const_image_portion +
     quizzes[0].alts[0].image}' /></td>
-      </tr>
+      </tr>  
        <tr>
         <td class="target">${quizzes[0].alts[1].text}</td>
         <td class="mother">${quizzes[0].sols[1].text}</td>
