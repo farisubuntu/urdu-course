@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="prefix_styles.css" />
-  <script
-   src="https://kit.fontawesome.com/c0d271a090.js"
-   crossorigin="anonymous"
-  ></script>
-  <title>fetch and JSON - workaround</title>
- </head>
 
- <body>
-  <button type="button" class="home" onclick="toHomePage();">
-   <i class="fa-solid fa-house"></i> HOME
-  </button>
-  <button type="button" class="home" onclick="toNextHome();">
-   <i class="fa-solid fa-book"></i> Book Notes
-  </button>
-  <!-- https://raw.githubusercontent.com/farisubuntu/mondly/master/sections/1201.json -->
-  <header class="nav-header"></header>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="prefix_styles.css" />
+    <script src="https://kit.fontawesome.com/c0d271a090.js" crossorigin="anonymous"></script>
+    <title>fetch and JSON - workaround</title>
+</head>
 
-  <hr />
+<body>
+    <button type="button" class="home" onclick="toHomePage();">
+        <i class="fa-solid fa-house"></i> HOME
+    </button>
+    <button type="button" class="home" onclick="toNextHome();">
+        <i class="fa-solid fa-book"></i> Book Notes
+    </button>
+    <!-- https://raw.githubusercontent.com/farisubuntu/mondly/master/sections/1201.json -->
+    <header class="nav-header"></header>
 
-  <div class="content-wrapper"></div>
+    <hr />
 
-  <div class="quizzes"></div>
+    <div class="content-wrapper"></div>
 
-  <!-- all templates -->
-  <script src="templates.js"></script>
-  <script src="script.js"></script>
-  <script>
-   function toHomePage() {
-    console.log("toHomePage() .....");
-    window.location = location.href;
-   }
-   function toNextHome(){
-    window.location.href='./next/main.html';
-   }
-  </script>
- </body>
+    <div class="quizzes"></div>
+
+    <!-- all templates -->
+    <script src="templates.js"></script>
+    <script src="script.js"></script>
+    <script>
+        function toHomePage() {
+            console.log("toHomePage() .....");
+            window.location = location.href;
+        }
+
+        function toNextHome() {
+            window.location.href = './next/main.html';
+        }
+    </script>
+</body>
+
 </html>

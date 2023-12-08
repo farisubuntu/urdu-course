@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="next.css" />
-  <script
-   src="https://kit.fontawesome.com/c0d271a090.js"
-   crossorigin="anonymous"
-  ></script>
-  <title>main</title>
- </head>
 
- <body>
-  <button type="button" class="home" onclick="toHomePage();">
-   <i class="fa-solid fa-house"></i> HOME
-  </button>
-  <div class="page"></div>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="next.css" />
+    <script src="https://kit.fontawesome.com/c0d271a090.js" crossorigin="anonymous"></script>
+    <title>main</title>
+</head>
 
-  <script src="data.js"></script>
-  <script src="next.js"></script>
-  <script>
-   function toHomePage() {
-    console.log("toHomePage() .....");
-    window.location.href='../index.html';
-   }
-  </script>
- </body>
+<body>
+    <button type="button" class="home" onclick="toHomePage();">
+        <i class="fa-solid fa-house"></i> HOME
+    </button>
+    <div class="page"></div>
+
+    <script src="data.js"></script>
+    <script src="next.js"></script>
+    <script>
+        function toHomePage() {
+            console.log("toHomePage() .....");
+            window.location.href = '../index.html';
+        }
+    </script>
+</body>
+
 </html>
