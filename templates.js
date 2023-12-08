@@ -82,8 +82,7 @@ function appendPhrasesData() {
 
 function appendWordsData(totalwords) {
     console.log('appendWordsData()....');
-    // clean previous content
-    document.querySelector(".content-wrapper").innerHTML = "";
+
 
     var html = `
 <div class="tg-wrap">
@@ -125,6 +124,9 @@ function get_word_template_table() {
     console.log("get_word_template_table()....");
     console.log('lesson: ', lesson);
     console.log('and quizzes object contains: ', quizzes);
+    // clean previous content
+    document.querySelector(".content-wrapper").innerHTML = "";
+
     if ('alts' in quizzes[0]) {
         var totalwords = quizzes[0].alts.length;
         appendWordsData(totalwords);
