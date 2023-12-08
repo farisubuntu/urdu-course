@@ -48,11 +48,12 @@ function get_word_template_table() {
     var const_audio_portion = "https://d13tz37rv54ob.cloudfront.net/ur/";
     var const_image_portion =
         "https://d37sy4vufic209.cloudfront.net/phrase-images/";
-    var totalwords;
+    var totalwords = 0;
     if (quizzes[0].alts.length) {
         totalwords = quizzes[0].alts.length;
-        console.log('totoalwords = ', totalwords);
     }
+    console.log('totoalwords = ', totalwords);
+
     var html = `
 <div class="tg-wrap">
 <table>
