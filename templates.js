@@ -43,8 +43,8 @@ function get_top_bar() {
 
 function get_word_template_table() {
     console.log("get_word_template_table()....");
-    console.log(lesson);
-    console.log(quizzes);
+    console.log('lesson: ', lesson);
+    console.log('and quizzes object contains: ', quizzes);
     var const_audio_portion = "https://d13tz37rv54ob.cloudfront.net/ur/";
     var const_image_portion =
         "https://d37sy4vufic209.cloudfront.net/phrase-images/";

@@ -108,6 +108,7 @@ function makeUrls(id) {
 //+ 'https://d13tz37rv54ob.cloudfront.net/ur/' +
 // sample image link (phrase-image): 'https://d37sy4vufic209.cloudfront.net/phrase-images/4LxKr9YvDJgNMNCsfBNDDmpo1QDNYJsM'
 function openLesson(e, id) {
+    console.log('openLesson(e,id).....');
     console.log(
         "button pressed=> ",
         e.currentTarget,
@@ -122,15 +123,20 @@ function openLesson(e, id) {
 
     let cat_no, lesson_no, url;
     if (id.length == 3) {
+        console.log('id.length==3')
         cat_no = id.valueOf()[0];
         lesson_no = cat_no + id.valueOf()[1] + id.valueOf()[2];
+        console.log('cat_no = ', cat_no, ' and lesson_no= ', lesson_no);
     }
     if (id.length == 4) {
+        console.log('id.length==4')
         cat_no = id.valueOf()[0] + id.valueOf()[1];
         lesson_no = cat_no + id.valueOf()[2] + id.valueOf()[3];
+        console.log('cat_no = ', cat_no, ' and lesson_no= ', lesson_no);
     }
 
     url = `https://raw.githubusercontent.com/farisubuntu/urdu-course/gh-pages/data/${cat_no}/${lesson_no}.json`;
+    console.log(`openLesson(): now call caller(${url},'l')`);
     caller(url, "l");
 }
 
