@@ -48,67 +48,40 @@ function get_word_template_table() {
     var const_audio_portion = "https://d13tz37rv54ob.cloudfront.net/ur/";
     var const_image_portion =
         "https://d37sy4vufic209.cloudfront.net/phrase-images/";
-
+    var totalwords = quizzes[0].alts.length;
+    console.log('totoalwords = ', totalwords);
     var html = `
- <div class="tg-wrap">
-  <table>
-    <thead>
-      <tr>
-        <th class="target-head">الكلمة</th>
-        <th class="mother-head">المعنى</th>
-        <th class="audio-head">النطق</th>
-        <th class="image-head">صورة</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="target">${quizzes[0].alts[0].text}</td>
-        <td class="mother">${quizzes[0].sols[0].text}</td>
-        <td class="audio"><i class="fa fa-play"></i><audio preload="metadata"  src='${const_audio_portion +
-    quizzes[0].alts[0].key +
+<div class="tg-wrap">
+<table>
+<thead>
+  <tr>
+    <th class="target-head">الكلمة</th>
+    <th class="mother-head">المعنى</th>
+    <th class="audio-head">النطق</th>
+    <th class="image-head">صورة</th>
+  </tr>
+</thead>
+<tbody>`;
+    for (var i = 0; i < totalwords; i++) {
+        html += `
+  <tr>
+    <td class="target">${quizzes[0].alts[i].text}</td>
+    <td class="mother">${quizzes[0].sols[i].text}</td>
+    <td class="audio"><i class="fa fa-play"></i><audio preload="metadata"  src='${const_audio_portion +
+    quizzes[0].alts[i].key +
     "?t=" +
-    quizzes[0].alts[0].audio_updated_at}' 
-          type='audio/mp3'>Your browser not supported</audio></td>
-        <td class="image"><img src='${const_image_portion +
-    quizzes[0].alts[0].image}' /></td>
-      </tr>  
-       <tr>
-        <td class="target">${quizzes[0].alts[1].text}</td>
-        <td class="mother">${quizzes[0].sols[1].text}</td>
-        <td class="audio"><i class="fa fa-play"></i><audio preload="metadata"  src='${const_audio_portion +
-    quizzes[0].alts[1].key +
-    "?t=" +
-    quizzes[0].alts[1].audio_updated_at}' 
-          type='audio/mp3'>Your browser not supported</audio></td>
-        <td class="image"><img src='${const_image_portion +
-    quizzes[0].alts[1].image}' /></td>
-      </tr>
-       <tr>
-        <td class="target">${quizzes[0].alts[2].text}</td>
-        <td class="mother">${quizzes[0].sols[2].text}</td>
-        <td class="audio"><i class="fa fa-play"></i><audio preload="metadata"  src='${const_audio_portion +
-    quizzes[0].alts[2].key +
-    "?t=" +
-    quizzes[0].alts[2].audio_updated_at}' 
-          type='audio/mp3'>Your browser not supported</audio></td>
-        <td class="image"><img src='${const_image_portion +
-    quizzes[0].alts[2].image}' /></td>
-      </tr>
-       <tr>
-        <td class="target">${quizzes[0].alts[3].text}</td>
-        <td class="mother">${quizzes[0].sols[3].text}</td>
-        <td class="audio"><i class="fa fa-play"></i><audio preload="metadata"  src='${const_audio_portion +
-    quizzes[0].alts[3].key +
-    "?t=" +
-    quizzes[0].alts[3].audio_updated_at}' 
-          type='audio/mp3'>Your browser not supported</audio></td>
-        <td class="image"><img src='${const_image_portion +
-    quizzes[0].alts[3].image}' /></td>
-      </tr>
-    </tbody>
-  </table>
- </div>
- `;
+    quizzes[0].alts[i].audio_updated_at}' 
+      type='audio/mp3'>Your browser not supported</audio></td>
+    <td class="image"><img src='${const_image_portion +
+    quizzes[0].alts[i].image}' /></td>
+  </tr>  
+  `;
+    }
+    html += `
+</tbody>
+</table>
+</div>
+`;
     document.querySelector(".content-wrapper").innerHTML = html;
 
     //-------------- append phrases/examples data: --------
