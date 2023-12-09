@@ -18,8 +18,6 @@ body {
     align-content: center;
 }
 
-.content-wrapper {}
-
 /* ----------------------- cards ------------------------------*/
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -108,9 +106,6 @@ tbody .target {
 tbody .mother {
     color: green;
 }
-
-.image,
-.image-head {}
 
 .image>img {
     width: 70px;
