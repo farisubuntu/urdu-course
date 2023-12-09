@@ -5,6 +5,7 @@
     justify-content: space-around;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
+    flex-direction: row-reverse;
 }
 
 /* Style the buttons inside the tab */
