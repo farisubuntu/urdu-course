@@ -8,7 +8,6 @@ const VERSION = '1.1';
 const URLS = [
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
-  `${GHPATH}/public/\*`
   // add more paths if you need
   // `${GHPATH}/js/app.js`
 ]
