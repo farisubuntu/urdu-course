@@ -53,7 +53,9 @@ const URLS = [
   `${GHPATH}/images/90.jpeg`,
   `${GHPATH}/images/91.jpeg`,
   `${GHPATH}/images/9.jpeg`,
-  
+
   // add more paths if you need
   // `${GHPATH}/js/app.js`
 ]
+
+export default URLS;

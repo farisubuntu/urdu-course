@@ -1,4 +1,4 @@
-
+import URLS from "./cached";
 // Change to a different app prefix name
 const APP_PREFIX = 'كورس اوردو';
 const VERSION = '1.1';
