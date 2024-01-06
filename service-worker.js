@@ -1,16 +1,9 @@
-const GHPATH = 'https://farisubuntu.github.io/urdu-course/';
+
 // Change to a different app prefix name
 const APP_PREFIX = 'كورس اوردو';
 const VERSION = '1.1';
 
-// The files to make available for offline use. make sure to add 
-// others to this list
-const URLS = [
-  `${GHPATH}/`,
-  `${GHPATH}/index.html`,
-  // add more paths if you need
-  // `${GHPATH}/js/app.js`
-]
+
 
 const CACHE_NAME = APP_PREFIX + VERSION
 self.addEventListener('fetch', function (e) {
