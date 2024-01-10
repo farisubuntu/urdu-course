@@ -19,9 +19,11 @@ var url_all =
 // all; // always 'all'
 
 async function getJSON(url) {
-    return fetch(url).then(response => response.json()).then(responseJson => {
-        return responseJson;
-    });
+    return fetch(url)
+        .then(response => response.json())
+        .then(responseJson => {
+            return responseJson;
+        });
 }
 async function caller(url, obj_type) {
     const json = await this.getJSON(url); // command waits until completion
