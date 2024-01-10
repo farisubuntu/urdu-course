@@ -1,4 +1,4 @@
-const GHPATH = 'https://farisubuntu.github.io/urdu-course/';
+const GHPATH = 'https://farisubuntu.github.io/urdu-course';
 // The files to make available for offline use. make sure to add 
 // others to this list
 const URLS = [
