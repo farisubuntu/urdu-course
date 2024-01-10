@@ -1,13 +1,13 @@
 {
   "name": "Urdu Course",
   "short_name": "كورس الأوردو",
-  "scope": "/",
+  "scope": "/urdu-course",
   "start_url": ".",
   "related_applications": [
     {
       "platform": "windows",
-      "url": "https://farisubuntu.github.io/urdu-course/index.html",
-      "id": "urdu-course.UrduCourse"
+      "url": "https://farisubuntu.github.io/eng-course/",
+      "id": "eng-course.EngCourse"
     }
   ],
   "iarc_rating_id": "e58c174a-81d2-5c3c-32cc-34b8de4a52e9",
