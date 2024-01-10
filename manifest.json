@@ -1,8 +1,8 @@
 {
   "name": "Urdu Course",
   "short_name": "كورس الأوردو",
-  "scope": "/urdu-course",
-  "start_url": ".",
+  "scope": "/",
+  "start_url": "https://farisubuntu.github.io/urdu-course/",
   "related_applications": [
     {
       "platform": "windows",
@@ -27,7 +27,7 @@
       "purpose": "maskable"
     },
     {
-      "src": "./manifest-icon-512.maskable.png",
+      "src": "public/manifest-icon-512.maskable.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
